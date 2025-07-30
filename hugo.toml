@@ -1,0 +1,11 @@
+baseURL = 'https://isbrqu.github.io/informatica-1d/'
+languageCode = 'en-us'
+title = 'Informática 1D'
+theme = 'hugo-bearblog'
+author = 'Isaac Bruno Quiroga'
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+[params]
+	hideMadeWithLine = true
