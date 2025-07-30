@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://isbrqu.github.io/informatica-1d/sitemap.xml
