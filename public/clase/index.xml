@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clase on Informática 1D</title>
-    <link>http://localhost:1313/informatica-1d/clase/</link>
-    <description>Recent content in Clase on Informática 1D</description>
+    <title>Clases on Informática 1D</title>
+    <link>https://isbrqu.github.io/informatica-1d/clase/</link>
+    <description>Recent content in Clases on Informática 1D</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Jul 2025 21:51:22 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/informatica-1d/clase/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://isbrqu.github.io/informatica-1d/clase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/informatica-1d/clase/software/</link>
+      <link>https://isbrqu.github.io/informatica-1d/clase/software/</link>
       <pubDate>Tue, 29 Jul 2025 21:51:22 -0300</pubDate>
-      <guid>http://localhost:1313/informatica-1d/clase/software/</guid>
+      <guid>https://isbrqu.github.io/informatica-1d/clase/software/</guid>
       <description>&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Es cualquier componente no físico de la computadora.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tipos-de-software&#34;&gt;Tipos de software&lt;/h2&gt;&#xA;&lt;h3 id=&#34;software-de-sistema&#34;&gt;Software de sistema&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Conjunto de programas que gestionan y controlan el hardware de una computadora, permitiendo la interacción con otros programas y usuarios.&lt;/p&gt;&#xA;&lt;p&gt;Es el tipo de programa que hace que la computadora funcione. Es como el &amp;ldquo;cerebro invisible&amp;rdquo; que coordina todo lo que pasa dentro del equipo, permitiendo que el hardware y los programas que usamos (como los juegos, navegadores o editores de texto) trabajen juntos. Sin software de sistema, la computadora estaría encendida, pero no podrías hacer nada con ella.&lt;/p&gt;</description>
     </item>
   </channel>
