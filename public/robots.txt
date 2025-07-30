@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: http://localhost:1313/informatica-1d/sitemap.xml
+Sitemap: https://isbrqu.github.io/informatica-1d/sitemap.xml
