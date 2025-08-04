@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/informatica-1d/3b/</loc>
+    <lastmod>2025-08-03T14:50:16-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/informatica-1d/3b/clase/algoritmo/</loc>
+    <lastmod>2025-08-03T14:50:16-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/informatica-1d/clase/</loc>
     <lastmod>2025-07-29T22:12:11-03:00</lastmod>
   </url><url>
