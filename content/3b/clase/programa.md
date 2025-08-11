@@ -124,7 +124,7 @@ Estos son los tres tipos de datos que usaremos:
 
 ## Ejercitación
 
-Indicar cuales de los siguientes nombres de valores son **válidos** y **significativos**:
+Indicar cuales de los siguientes nombres de variables son **válidos** y **significativos**:
 
 <table border="1">
     <tr>
