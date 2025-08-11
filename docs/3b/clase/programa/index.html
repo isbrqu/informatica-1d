@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Programa | Informática 1D</title>
+<meta name="title" content="Programa" />
+<meta name="description" content="
+Algoritmo. Parte 2. Programa
+Programa
+Definición: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.
+Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, solo se llama programa a un algoritmo escrito en código fuente o en un pseudocódigo lo suficientemente bien definido como para que una computadora lo ejecute." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="https://isbrqu.github.io/informatica-1d/3b/clase/programa/">
+  <meta property="og:site_name" content="Informática 1D">
+  <meta property="og:title" content="Programa">
+  <meta property="og:description" content="Algoritmo. Parte 2. Programa Programa Definición: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.
+Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, solo se llama programa a un algoritmo escrito en código fuente o en un pseudocódigo lo suficientemente bien definido como para que una computadora lo ejecute.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="3b">
+    <meta property="article:published_time" content="2025-08-10T23:38:02-03:00">
+    <meta property="article:modified_time" content="2025-08-10T23:38:02-03:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Programa">
+  <meta name="twitter:description" content="Algoritmo. Parte 2. Programa Programa Definición: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.
+Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, solo se llama programa a un algoritmo escrito en código fuente o en un pseudocódigo lo suficientemente bien definido como para que una computadora lo ejecute.">
+
+
+
+
+  <meta itemprop="name" content="Programa">
+  <meta itemprop="description" content="Algoritmo. Parte 2. Programa Programa Definición: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.
+Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, solo se llama programa a un algoritmo escrito en código fuente o en un pseudocódigo lo suficientemente bien definido como para que una computadora lo ejecute.">
+  <meta itemprop="datePublished" content="2025-08-10T23:38:02-03:00">
+  <meta itemprop="dateModified" content="2025-08-10T23:38:02-03:00">
+  <meta itemprop="wordCount" content="551">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/informatica-1d/" class="title">
+  <h2>Informática 1D</h2>
+</a>
+<nav>
+</nav>
+</header>
+  <main>
+
+<content>
+  <style>
+th, td {
+  text-align: center;
+}
+</style>
+<h1 id="algoritmo-parte-2-programa">Algoritmo. Parte 2. Programa</h1>
+<h2 id="programa">Programa</h2>
+<p><strong>Definición</strong>: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.</p>
+<p>Mientras que <strong>un algoritmo es una idea abstracta</strong> de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, <strong>solo se llama programa a un algoritmo escrito en código fuente</strong> o en <strong>un pseudocódigo lo suficientemente bien definido</strong> como para que una computadora lo ejecute.</p>
+<h2 id="elementos-básicos-de-un-programa">Elementos básicos de un programa</h2>
+<p>El ser humano <strong>razona</strong> a partir de los datos que recibe del exterior, los cuales se <strong>almacenan</strong> en su <strong>cerebro</strong>. De forma similar, la computadora <strong>procesa</strong> datos provenientes del exterior, que se <strong>guardan</strong> en su <strong>memoria principal</strong>, conocida como <strong>R.A.M.</strong> (Memoria de Acceso Aleatorio).  La R.A.M. está formada por numerosas posiciones o celdas, numeradas de manera consecutiva, capaces de almacenar información.</p>
+<p>Tanto el ser humano como la computadora, además de recibir y almacenar datos, pueden <strong>interactuar</strong> con otras personas o con otros sistemas informáticos.</p>
+<p>A continuación exploraremos cómo una computadora <strong>recibe</strong> y <strong>almacena</strong> datos del exterior, así como las formas en que <strong>interactúa</strong> a través de mensajes simples.</p>
+<h3 id="cómo-almacena-variables">Cómo almacena. Variables</h3>
+<p><strong>Definición</strong>: Una variable es una posición de memoria que almacena un valor (o dato).</p>
+<p>Antes de ver como recibir datos tenemos que tener algún deposito en donde guardarlos.
+En un programa hay datos que van cambiando durante el desarrollo del mismo. Para representar y manejar estos datos se usan las <strong>VARIABLES</strong>.</p>
+<p>Las <strong>variables</strong> ocupan posiciones de memoria y <strong>contienen valores</strong>. Estas se identifican por un <strong>nombre</strong> y un <strong>tipo de dato</strong>.</p>
+<ul>
+<li>El <strong>nombre</strong> brinda un acceso familiar y reconocible para acceder al valor de la variable.</li>
+<li>El <strong>tipo de dato</strong> indica que valores puede contener y qué operaciones se pueden realizar con la variable.</li>
+</ul>
+<h3 id="nombre-de-una-variable">Nombre de una variable</h3>
+<p><strong>Definición</strong>: Es un identificador que permite referenciar una variable.</p>
+<h4 id="características-del-nombre-de-una-variable">Características del nombre de una variable</h4>
+<ul>
+<li>El nombre de una variable tiene que ser <em>significativo</em>.
+<ul>
+<li>Ejemplos: <code>suma</code>, <code>nombre3</code>, <code>esAlto</code>.</li>
+<li>No ejemplos: <code>s</code>, <code>d2</code>, <code>l2ix</code>.</li>
+</ul>
+</li>
+<li>No pueden haber nombres repetidos en un mismo programa.</li>
+<li>No se pueden usar palabras reservadas por el lenguaje de programación.</li>
+<li>El primer carácter debe ser una <strong>letra</strong> o un guión bajo (<code>_</code>).</li>
+<li>Los siguientes caracteres pueden ser letras minúsculas, letras mayúsculas y/o números.</li>
+<li>No puede contener espacios, caracteres especiales, signos de puntuación o letras acentuadas.
+<ul>
+<li>Espacios: <code>space</code>, <code>enter</code>, <code>tab</code>, etc.</li>
+<li>Caracteres especiales: <code>%</code>, <code>$</code>, <code>&amp;</code>, <code>@</code>, <code>.</code>, etc.</li>
+<li>Signos de puntuación: <code>.</code>, <code>;</code>, <code>,</code>, etc.</li>
+<li>Letras acentuadas: <code>ñ</code>, <code>ú</code>, <code>ö</code>, <code>Å</code>, etc.</li>
+</ul>
+</li>
+</ul>
+<table border="1">
+			<thead>
+    <tr>
+        <th>Nombres válidos</th>
+        <th>Nombres inválidos</th>
+    </tr>
+			</thead>
+				<tbody>
+					<tr>
+									<td><code>numero1</code></td>
+									<td><code>número</code></td>
+					</tr>
+					<tr>
+									<td><code>descuento</code></td>
+									<td><code>20descuento</code></td>
+					</tr>
+					<tr>
+									<td><code>totalDeRecargo2</code></td>
+									<td><code>total de recargo 2</code></td>
+					</tr>
+					<tr>
+									<td><code>sumaSalarios</code></td>
+									<td><code>suma$</code></td>
+					</tr>
+					<tr>
+									<td><code>seis</code></td>
+									<td><code>algoritmo</code></td>
+					</tr>
+				</tbody>
+</table>
+<h3 id="tipo-de-dato">Tipo de dato</h3>
+<p><strong>Definición:</strong> El tipo de dato es un indicador que determina los <strong>valores</strong> que puede guardar una variable y las <strong>operaciones</strong> que se pueden realizarse con ella.</p>
+<p>Un dato o valor puede ser un número entero como el <code>34</code>, una palabra o varias palabras como <code>&quot;Hola mundo&quot;</code> o valores lógicos (booleanos) como <code>verdadero</code> y <code>falso</code>.
+Estos son los tres tipos de datos que usaremos:</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Tipo de dato</th>
+            <th>Ejemplos de valores</th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Numérico</td>
+            <td><code>-10</code>, <code>0</code>, <code>35</code></td>
+            <td>Suma, resta, multiplicación, división, etc.</td>
+        </tr>
+        <tr>
+            <td>Texto</td>
+            <td><code>"Permite espacios"</code><br><code>"2 ñandúes"</code></td>
+            <td>Concatenación.</td>
+        </tr>
+        <tr>
+            <td>Lógico</td>
+            <td><code>verdadero<code/><br><code>falso<code/></td>
+            <td>Negación, conjunción y disyunción.</td>
+        </tr>
+    </tbody>
+</table>
+<h2 id="ejercitación">Ejercitación</h2>
+<p>Indicar cuales de los siguientes nombres de valores son <strong>válidos</strong> y <strong>significativos</strong>:</p>
+<table border="1">
+    <tr>
+        <td><code>s2k</code></td>
+        <td><code>$total</code></td>
+    </tr>
+    <tr>
+        <td><code>descuento</code></td>
+        <td><code>cantidadDeNiños</code></td>
+    </tr>
+    <tr>
+        <td><code>nombreMoneda</code></td>
+        <td><code>litrosAgua</code></td>
+    </tr>
+    <tr>
+        <td><code>inc</code></td>
+        <td><code>FinAlgoritmo</code></td>
+    </tr>
+    <tr>
+        <td><code>metros</code></td>
+        <td><code>altura2e</code></td>
+    </tr>
+</table>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>
+</footer>
+
+  
+</body>
+
+</html>

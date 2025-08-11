@@ -9,3 +9,6 @@ enableRobotsTXT = true
 
 [params]
 	hideMadeWithLine = true
+
+[markup.goldmark.renderer]
+unsafe = true
