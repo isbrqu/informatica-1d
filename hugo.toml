@@ -1,6 +1,6 @@
-baseURL = 'https://isbrqu.github.io/informatica-1d/'
+baseURL = 'zip.pet'
 languageCode = 'en-us'
-title = 'Informática 1D'
+title = 'Informática'
 theme = 'hugo-bearblog'
 author = 'Isaac Bruno Quiroga'
 
@@ -11,4 +11,9 @@ enableRobotsTXT = true
 	hideMadeWithLine = true
 
 [markup.goldmark.renderer]
-unsafe = true
+	unsafe = true
+
+[markup]
+	[markup.highlight]
+		noClasses = false   # importante, para que use clases CSS en lugar de estilos inline
+		lineNos = true
