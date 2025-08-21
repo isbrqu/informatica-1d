@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/informatica-1d/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=informatica-1d/livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Programa | Informática 1D</title>
+<title>Programa | Informática</title>
 <meta name="title" content="Programa" />
 <meta name="description" content="
 Algoritmo. Parte 2. Programa
@@ -15,8 +15,8 @@ Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordena
 <meta name="keywords" content="" />
 
 
-<meta property="og:url" content="http://localhost:1313/informatica-1d/3b/clase/programa/">
-  <meta property="og:site_name" content="Informática 1D">
+<meta property="og:url" content="//localhost:1313/3b/clase/programa/">
+  <meta property="og:site_name" content="Informática">
   <meta property="og:title" content="Programa">
   <meta property="og:description" content="Algoritmo. Parte 2. Programa Programa Definición: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.
 Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, solo se llama programa a un algoritmo escrito en código fuente o en un pseudocódigo lo suficientemente bien definido como para que una computadora lo ejecute.">
@@ -42,7 +42,7 @@ Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordena
 Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, solo se llama programa a un algoritmo escrito en código fuente o en un pseudocódigo lo suficientemente bien definido como para que una computadora lo ejecute.">
   <meta itemprop="datePublished" content="2025-08-10T23:38:02-03:00">
   <meta itemprop="dateModified" content="2025-08-10T23:38:02-03:00">
-  <meta itemprop="wordCount" content="1887">
+  <meta itemprop="wordCount" content="1898">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -211,8 +211,8 @@ Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordena
 </head>
 
 <body>
-  <header><a href="/informatica-1d/" class="title">
-  <h2>Informática 1D</h2>
+  <header><a href="/" class="title">
+  <h2>Informática</h2>
 </a>
 <nav>
 </nav>
@@ -221,9 +221,14 @@ Mientras que un algoritmo es una idea abstracta de una secuencia de pasos ordena
 
 <content>
   <style>
-th, td {
+.my-table td, .my-table th {
   text-align: center;
 }
+
+p:has(img:only-child) {
+  text-align: center;
+}
+
 </style>
 <h1 id="algoritmo-parte-2-programa">Algoritmo. Parte 2. Programa</h1>
 <h2 id="programa">Programa</h2>
@@ -265,249 +270,487 @@ En un programa hay datos que van cambiando durante el desarrollo del mismo. Para
 </ul>
 </li>
 </ul>
-<table border="1">
-			<thead>
-    <tr>
-        <th>Nombres válidos</th>
-        <th>Nombres inválidos</th>
-    </tr>
-			</thead>
-				<tbody>
-					<tr>
-									<td><code>numero1</code></td>
-									<td><code>número</code></td>
-					</tr>
-					<tr>
-									<td><code>descuento</code></td>
-									<td><code>20descuento</code></td>
-					</tr>
-					<tr>
-									<td><code>totalDeRecargo2</code></td>
-									<td><code>total de recargo 2</code></td>
-					</tr>
-					<tr>
-									<td><code>sumaSalarios</code></td>
-									<td><code>suma$</code></td>
-					</tr>
-					<tr>
-									<td><code>seis</code></td>
-									<td><code>algoritmo</code></td>
-					</tr>
-				</tbody>
+<table border="1" class="my-table">
+	<thead>
+		<tr>
+			<th>Nombres válidos</th>
+			<th>Nombres inválidos</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>numero1</code></td>
+			<td><code>número</code></td>
+		</tr>
+		<tr>
+			<td><code>descuento</code></td>
+			<td><code>20descuento</code></td>
+		</tr>
+		<tr>
+			<td><code>totalDeRecargo2</code></td>
+			<td><code>total de recargo 2</code></td>
+		</tr>
+		<tr>
+			<td><code>sumaSalarios</code></td>
+			<td><code>suma$</code></td>
+		</tr>
+		<tr>
+			<td><code>seis</code></td>
+			<td><code>algoritmo</code></td>
+		</tr>
+	</tbody>
 </table>
 <h3 id="tipo-de-dato">Tipo de dato</h3>
 <p><strong>Definición:</strong> El tipo de dato es un indicador que determina los <strong>valores</strong> que puede guardar una variable y las <strong>operaciones</strong> que se pueden realizarse con ella.</p>
 <p>Un dato o valor puede ser un número entero como el <code>34</code>, una palabra o varias palabras como <code>&quot;Hola mundo&quot;</code> o valores lógicos (booleanos) como <code>verdadero</code> y <code>falso</code>.
 Estos son los tres tipos de datos que usaremos:</p>
-<table border="1">
-    <thead>
-        <tr>
-            <th>Tipo de dato</th>
-            <th>Ejemplos de valores</th>
-            <th>Operaciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Numérico</td>
-            <td><code>-10</code>, <code>0</code>, <code>35</code></td>
-            <td>Suma, resta, multiplicación, división, etc.</td>
-        </tr>
-        <tr>
-            <td>Texto</td>
-            <td><code>"Permite espacios"</code><br><code>"2 ñandúes"</code></td>
-            <td>Concatenación.</td>
-        </tr>
-        <tr>
-            <td>Lógico</td>
-            <td><code>verdadero<code/><br><code>falso<code/></td>
-            <td>Negación, conjunción y disyunción.</td>
-        </tr>
-    </tbody>
+<table border="1" class="my-table">
+	<thead>
+		<tr>
+			<th>Tipo de dato</th>
+			<th>Ejemplos de valores</th>
+			<th>Operaciones</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Numérico</td>
+			<td><code>-10</code>, <code>0</code>, <code>35</code></td>
+			<td>Suma, resta, multiplicación, división, etc.</td>
+		</tr>
+		<tr>
+			<td>Texto</td>
+			<td><code>"Permite espacios"</code><br><code>"2 ñandúes"</code></td>
+			<td>Concatenación.</td>
+		</tr>
+		<tr>
+			<td>Lógico</td>
+			<td><code>verdadero<code/><br><code>falso<code/></td>
+			<td>Negación, conjunción y disyunción.</td>
+		</tr>
+	</tbody>
 </table>
 <h4 id="ejercitación">Ejercitación</h4>
 <p>Indicar cuales de los siguientes nombres de variables son <strong>válidos</strong> y <strong>significativos</strong>:</p>
-<table border="1">
-    <tr>
-        <td><code>s2k</code></td>
-        <td><code>$total</code></td>
-    </tr>
-    <tr>
-        <td><code>descuento</code></td>
-        <td><code>cantidadDeNiños</code></td>
-    </tr>
-    <tr>
-        <td><code>nombreMoneda</code></td>
-        <td><code>litrosAgua</code></td>
-    </tr>
-    <tr>
-        <td><code>inc</code></td>
-        <td><code>FinAlgoritmo</code></td>
-    </tr>
-    <tr>
-        <td><code>metros</code></td>
-        <td><code>altura2e</code></td>
-    </tr>
+<table border="1" class="my-table">
+	<tr>
+		<td><code>s2k</code></td>
+		<td><code>$total</code></td>
+	</tr>
+	<tr>
+		<td><code>descuento</code></td>
+		<td><code>cantidadDeNiños</code></td>
+	</tr>
+	<tr>
+		<td><code>nombreMoneda</code></td>
+		<td><code>litrosAgua</code></td>
+	</tr>
+	<tr>
+		<td><code>inc</code></td>
+		<td><code>FinAlgoritmo</code></td>
+	</tr>
+	<tr>
+		<td><code>metros</code></td>
+		<td><code>altura2e</code></td>
+	</tr>
 </table>
 <h4 id="etapas-de-una-variable">Etapas de una variable</h4>
 <p>Una variable pasa por distintas etapas: Definición (o declaración), inicialización, asignación y obtención del valor.</p>
 <h5 id="definición">Definición</h5>
 <p>En esta etapa se crea la variable con algún nombre y se indica de qué tipo de dato es.</p>
 <p>Ejemplo de cómo definir una variable llamada <code>apellido</code> como tipo <code>Texto</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Definicion
-2   Definir apellido Como Texto
-3 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo definir una variable llamada <code>edad</code> como tipo <code>Numerico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Definicion
-2   Definir edad Como Numerico
-3 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo definir una variable llamada <code>esMayorDeEdad</code> como tipo <code>Logico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Definicion
-2   Definir esMayorDeEdad Como Logico
-3 FinAlgoritmo
-</code></pre><p>En muchos lenguajes de programación, incluido PSeInt, <strong>no se permite definir dos variables con el mismo nombre</strong>. El siguiente código en PSeInt muestra un error en la línea 3 indicando esto mismo.</p>
-<pre tabindex="0"><code>1 Algoritmo Definicion
-2   Definir numeroDocumento como Numerico
-3   Definir numeroDocumento como Texto
-4 FinAlgoritmo
-</code></pre><h4 id="inicialización">Inicialización</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hola mundo&#39;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Algoritmo DefinirVariableTexto
+</span></span><span class="line"><span class="cl">  Definir apellido Como Texto;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo definir una variable llamada <code>edad</code> como tipo <code>Numerico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo DefinirVariableNumerica
+</span></span><span class="line"><span class="cl">  Definir edad Como Numerico;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo definir una variable llamada <code>esMayorDeEdad</code> como tipo <code>Logico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo DefinirVariableLogica
+</span></span><span class="line"><span class="cl">  Definir esMayorDeEdad Como Logico;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>En muchos lenguajes de programación, incluido PSeInt, <strong>no se permite definir dos variables con el mismo nombre</strong>. El siguiente código en PSeInt muestra un error en la línea 3 indicando esto mismo.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo DefinirConError
+</span></span><span class="line"><span class="cl">  Definir numeroDocumento como Numerico;
+</span></span><span class="line"><span class="cl">  Definir numeroDocumento como Texto;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="inicialización">Inicialización</h4>
 <p>Esta etapa se denomina así porque es cuando la variable obtiene su valor inicial o primer valor, siempre dependiendo de su tipo de dato previamente asignado. Si bien algunos lenguajes de programación</p>
 <p>Ejemplo de cómo inicializar una variable llamada <code>apellido</code> de tipo <code>Texto</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Inicializacion
-2   Definir apellido Como Texto
-3   apellido &lt;- &#34;Gonzaléz&#34;
-4 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo inicializar una variable llamada <code>edad</code> como tipo <code>Numerico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Inicializacion
-2   Definir edad Como Numerico
-3   edad &lt;- 12
-4 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo inicializar una variable llamada <code>esMayorDeEdad</code> como tipo <code>Logico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Inicializacion
-2   Definir esMayorDeEdad Como Logico
-3   esMayorDeEdad &lt;- Verdadero
-4 FinAlgoritmo
-</code></pre><p>Como se observa en los tres ejemplos hechos en PSeInt, antes de inicializar una variable es necesario definir su tipo de dato. Para inicializarla, se debe escribir en una sola línea: primero el nombre de la variable, luego los caracteres <code>&lt;-</code> y finalmente un valor.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo InicializarTexto
+</span></span><span class="line"><span class="cl">  Definir apellido Como Texto;
+</span></span><span class="line"><span class="cl">  apellido &lt;- &#34;Gonzaléz&#34;;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo inicializar una variable llamada <code>edad</code> como tipo <code>Numerico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo InicializarNumerico
+</span></span><span class="line"><span class="cl">  Definir edad Como Numerico;
+</span></span><span class="line"><span class="cl">  edad &lt;- 12;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo inicializar una variable llamada <code>esMayorDeEdad</code> como tipo <code>Logico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo InicializarLogico
+</span></span><span class="line"><span class="cl">  Definir esMayorDeEdad Como Logico;
+</span></span><span class="line"><span class="cl">  esMayorDeEdad &lt;- Verdadero;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Como se observa en los tres ejemplos hechos en PSeInt, antes de inicializar una variable es necesario definir su tipo de dato. Para inicializarla, se debe escribir en una sola línea: primero el nombre de la variable, luego los caracteres <code>&lt;-</code> y finalmente un valor.</p>
 <h4 id="asignación">Asignación</h4>
 <p>Aunque la asignación se escribe de la misma manera que la inicialización, se diferencia en que no siempre corresponde al primer valor de la variable, sino que puede implicar la modificación de su contenido. Esta operación puede considerarse <em>destructiva</em>, ya que, en principio, una vez realizada el valor anterior no puede recuperarse dentro de la misma variable.</p>
 <p>Ejemplo de cómo asignar en la línea 4 un nuevo valor <code>Texto</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Asignacion
-2   Definir apellido Como Texto
-3   apellido &lt;- &#34;González&#34;
-4   apellido &lt;- &#34;Méndez&#34;
-5 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo asignar en la línea 4 un nuevo valor <code>Numerico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Asignacion
-2   Definir edad Como Numerico
-3   edad &lt;- 12
-4   edad &lt;- 0
-5 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo asignar en la línea 4 un nuevo valor <code>Logico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Asignacion
-2   Definir esMayorDeEdad Como Logico
-3   esMayorDeEdad &lt;- Verdadero
-4   esMayorDeEdad &lt;- Falso
-5 FinAlgoritmo
-</code></pre><p>En estos ejemplos se puede ver que <strong>la inicialización es solo un caso especial de asignación</strong>. A la derecha de los caracteres <code>&lt;-</code> pueden ir más <em>cosas</em> que solo valores, puede haber otra variable y operaciones, como se verá en la siguiente etapa.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo AsignarConTexto
+</span></span><span class="line"><span class="cl">  Definir apellido Como Texto;
+</span></span><span class="line"><span class="cl">  apellido &lt;- &#34;González&#34;;
+</span></span><span class="line"><span class="cl">  apellido &lt;- &#34;Méndez&#34;;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo asignar en la línea 4 un nuevo valor <code>Numerico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo AsignarConTexto
+</span></span><span class="line"><span class="cl">  Definir edad Como Numerico;
+</span></span><span class="line"><span class="cl">  edad &lt;- 12;
+</span></span><span class="line"><span class="cl">  edad &lt;- 0;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo asignar en la línea 4 un nuevo valor <code>Logico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo AsignarConTexto
+</span></span><span class="line"><span class="cl">  Definir esMayorDeEdad Como Logico;
+</span></span><span class="line"><span class="cl">  esMayorDeEdad &lt;- Verdadero;
+</span></span><span class="line"><span class="cl">  esMayorDeEdad &lt;- Falso;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>En estos ejemplos se puede ver que <strong>la inicialización es solo un caso especial de asignación</strong>. A la derecha de los caracteres <code>&lt;-</code> pueden ir más <em>cosas</em> que solo valores, puede haber otra variable y operaciones, como se verá en la siguiente etapa.</p>
 <h4 id="obtención-del-valor">Obtención del valor</h4>
 <p>Una variable se encuentra en la etapa de obtención de su valor cuando aparece a la derecha de la instrucción de asignación, es decir, a la derecha de los caracteres <code>&lt;-</code> en PSeInt. En este caso, la variable no se utiliza para cambiar su contenido, sino para <em>proporcionar</em> su valor a una operación u otra instrucción.</p>
 <p>Ejemplo de cómo obtener el valor que guarda <code>apellido</code> para concatenar a la izquierda otro texto en la línea 5 en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Obtención
-2   Definir apellido Como Texto
-3   Definir nombreCompleto Como Texto
-4   apellido &lt;- &#34;González&#34;
-5   nombreCompleto &lt;- &#34;Martín &#34; + apellido
-6 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo obtener el valor que guarda <code>edad</code> para restar en la línea 5 en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Obtención
-2   Definir edad Como Numerico
-3   Definir aniosFaltantes Como Numerico
-4   edad &lt;- 12
-5   aniosFaltantes &lt;- 18 - edad
-6 FinAlgoritmo
-</code></pre><p>Ejemplo de cómo obtener el valor que guarda <code>esMayorDeEdad</code> para negarlo en la línea 5 un nuevo valor <code>Logico</code> en PSeInt:</p>
-<pre tabindex="0"><code>1 Algoritmo Obtención
-2   Definir esMayorDeEdad Como Logico
-3   Definir esMenorDeEdad Como Logico
-4   esMayorDeEdad &lt;- Verdadero
-5   esMenorDeEdad &lt;- no esMayorDeEdad
-6 FinAlgoritmo
-</code></pre><h3 id="cómo-interactuar-lectura-por-teclado">Cómo interactuar. Lectura por teclado.</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo ObtenerValorDeVariable
+</span></span><span class="line"><span class="cl">  Definir apellido Como Texto;
+</span></span><span class="line"><span class="cl">  Definir nombreCompleto Como Texto;
+</span></span><span class="line"><span class="cl">  apellido &lt;- &#34;González&#34;;
+</span></span><span class="line"><span class="cl">  nombreCompleto &lt;- &#34;Martín &#34; + apellido;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo obtener el valor que guarda <code>edad</code> para restar en la línea 5 en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo ObtenerValorDeVariable
+</span></span><span class="line"><span class="cl">  Definir edad Como Numerico;
+</span></span><span class="line"><span class="cl">  Definir aniosFaltantes Como Numerico;
+</span></span><span class="line"><span class="cl">  edad &lt;- 12;
+</span></span><span class="line"><span class="cl">  aniosFaltantes &lt;- 18 - edad;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ejemplo de cómo obtener el valor que guarda <code>esMayorDeEdad</code> para negarlo en la línea 5 un nuevo valor <code>Logico</code> en PSeInt:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo ObtenerValorDeVariable
+</span></span><span class="line"><span class="cl">  Definir esMayorDeEdad Como Logico;
+</span></span><span class="line"><span class="cl">  Definir esMenorDeEdad Como Logico;
+</span></span><span class="line"><span class="cl">  esMayorDeEdad &lt;- Verdadero;
+</span></span><span class="line"><span class="cl">  esMenorDeEdad &lt;- no esMayorDeEdad;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="cómo-interactuar-lectura-por-teclado">Cómo interactuar. Lectura por teclado.</h3>
 <p>Para recibir datos de la persona que utilice nuestro programa (a la que llamaremos <em>usuario</em>), es necesario contar con una instrucción que le indique a la computadora que espere a que se escriba algo en el teclado y, al presionar la tecla <code>Enter</code>, lea lo ingresado y lo guarde en un lugar donde pueda ser utilizado.</p>
 <p>En PSeInt se utiliza la instrucción <code>Leer</code> seguido del nombre de la variable que deseamos almacenar el dato recibido por el usuario. Ejemplo:</p>
-<pre tabindex="0"><code>1 Algoritmo LecturaPorTeclado
-2   Definir edad Como Numerico
-3   Leer edad
-4 FinAlgoritmo
-</code></pre><p>Lo ingresado por el usuario debe coincidir con el tipo de dato definido para la variable en la que será almacenado, sino mostrará un error.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo LeerPorElTeclado
+</span></span><span class="line"><span class="cl">  Definir edad Como Numerico;
+</span></span><span class="line"><span class="cl">  Leer edad;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Lo ingresado por el usuario debe coincidir con el tipo de dato definido para la variable en la que será almacenado, sino mostrará un error.</p>
 <p><img src="../lectura-texto-1.gif" alt="lectura-texto 1"></p>
 <p>Esto ocurre principalmente con variables de tipo <code>Numerico</code>. En cambio, con variables de tipo <code>Texto</code> no sucede, ya que los caracteres numéricos se interpretan simplemente como texto.</p>
 <p><img src="../lectura-numero-como-texto.gif" alt="lectura-numero-como-texto"></p>
 <p>Sin embargo, dependiendo del lenguaje de programación, intentar realizar operaciones numéricas puede producir errores o resultados inesperados.</p>
 <p>Por ejemplo, el siguiente código en PSeInt no puede ejecutarse porque (en la línea 5) el carácter <code>+</code> puede interpretarse tanto como una suma como una concatenación. Ante esta ambigüedad, al combinar el valor <code>10</code> (de tipo <code>Numerico</code>) con la variable <code>edad</code> (de tipo <code>Texto</code>), el programa impide su ejecución.</p>
-<pre tabindex="0"><code>1 Algoritmo LecturaPorTecladoConError
-2   Definir edad Como Texto
-3   Definir aumento Como Texto
-4   Leer edad
-5   aumento &lt;- edad + 10
-6 FinAlgoritmo
-</code></pre><h3 id="cómo-mostrar-escritura-en-pantalla">Cómo mostrar. Escritura en pantalla.</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo LeerPorElTecladoConError
+</span></span><span class="line"><span class="cl">  Definir edad Como Texto;
+</span></span><span class="line"><span class="cl">  Definir aumento Como Texto;
+</span></span><span class="line"><span class="cl">  Leer edad;
+</span></span><span class="line"><span class="cl">  aumento &lt;- edad + 10;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="cómo-mostrar-escritura-en-pantalla">Cómo mostrar. Escritura en pantalla.</h3>
 <p>Hasta el momento solo se han guardado datos predefinidos por nosotros o leídos por el usuario. Para mostrar los resultados de nuestro algoritmo en la pantalla de la computadora se debe utilizar una instrucción especifica para eso. En PSeInt dicha instrucción es <code>Escribir</code>, que hace referencia a que la computadora escribirá en la terminal los valores que le indiquemos a la derecha de esta <em>palabra clave</em>.</p>
 <p>Ejemplo simple de como usar <code>Escribir</code> en PSeInt</p>
-<pre tabindex="0"><code>Algoritmo EscrituraEnPantalla
-  Escribir &#34;Hola mundo!&#34;
-FinAlgoritmo
-</code></pre><p>Para mostrar el valor de una variable con un mensaje se puede usar la coma (<code>,</code>) como separador de parámetros.</p>
-<pre tabindex="0"><code>Algoritmo EscrituraEnPantalla
-  Definir nombre Como Texto
-  nombre &lt;- &#34;Javier&#34;
-  Escribir &#34;El nombre es: &#34;, nombre
-FinAlgoritmo
-</code></pre><p><img src="../prueba-escribir.gif" alt="prueba-escribir"></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo EscribirEnPantalla
+</span></span><span class="line"><span class="cl">  Escribir &#34;Hola mundo!&#34;;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Para mostrar el valor de una variable con un mensaje se puede usar la coma (<code>,</code>) como separador de parámetros.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo EscribirEnPantalla
+</span></span><span class="line"><span class="cl">  Definir nombre Como Texto;
+</span></span><span class="line"><span class="cl">  nombre &lt;- &#34;Javier&#34;;
+</span></span><span class="line"><span class="cl">  Escribir &#34;El nombre es: &#34;, nombre;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="../prueba-escribir.gif" alt="prueba-escribir"></p>
 <p>Esto también puede ser usado con otros tipos de datos que no sean necesariamente <code>Texto</code>, ya que la instrucción <code>Escribir</code> se encarga de convertirlos a texto por nosotros.</p>
 <p><img src="../prueba-escribir-varios.gif" alt="prueba-escribir-varios"></p>
 <h2 id="algunos-ejemplos-más">Algunos ejemplos más</h2>
 <p><strong>Problema:</strong> Implementar un algoritmo en PSeInt que lea dos números por teclado y escriba en pantalla la suma de dichos números</p>
 <p><strong>Código en Pseint</strong>:</p>
-<pre tabindex="0"><code>1  Algoritmo Suma
-2    Definir numero1 Como Numerico
-3    Definir numero2 Como Numerico
-4    Definir suma Como Numerico
-5    Escribir &#34;Ingrese el primer número: &#34;
-6    Leer numero1
-7    Escribir &#34;Ingrese el segundo número: &#34;
-8    Leer numero2
-9    suma &lt;- numero1 + numero2
-10   Escribir &#34;La suma es &#34;, suma
-11 FinAlgoritmo
-</code></pre><p><strong>Problema:</strong> Crear un código que pida al usuario su nombre, su apellido y su edad y muestre por pantalla los tres datos.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo Sumar
+</span></span><span class="line"><span class="cl">  Definir numero1 Como Numerico;
+</span></span><span class="line"><span class="cl">  Definir numero2 Como Numerico;
+</span></span><span class="line"><span class="cl">  Definir suma Como Numerico;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese el primer número: &#34;;
+</span></span><span class="line"><span class="cl">  Leer numero1;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese el segundo número: &#34;;
+</span></span><span class="line"><span class="cl">  Leer numero2;
+</span></span><span class="line"><span class="cl">  suma &lt;- numero1 + numero2;
+</span></span><span class="line"><span class="cl">  Escribir &#34;La suma es &#34;, suma;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>Problema:</strong> Crear un código que pida al usuario su nombre, su apellido y su edad y muestre por pantalla los tres datos.</p>
 <p><strong>Código en Pseint</strong>:</p>
-<pre tabindex="0"><code>1  Algoritmo PedirDatos
-2    Definir nombre Como Texto
-3    Definir apellido Como Texto
-4    Definir edad Como Numerico
-5    Escribir &#34;Ingrese su nombre: &#34;
-6    Leer nombre
-7    Escribir &#34;Ingrese su apellido: &#34;
-8    Leer apellido
-9    Escribir &#34;Ingrese su edad: &#34;
-10   Leer edad
-11   Escribir &#34;Usted se llama &#34;, nombre, &#34; &#34;, apellido, &#34; y tiene &#34;, edad, &#34; años&#34;
-12 FinAlgoritmo
-</code></pre><p><strong>Problema:</strong> Diseñar un pseudocódigo para promediar dos notas de exámenes para luego imprimir dicho promedio.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo PedirDatos
+</span></span><span class="line"><span class="cl">  Definir nombre Como Texto;
+</span></span><span class="line"><span class="cl">  Definir apellido Como Texto;
+</span></span><span class="line"><span class="cl">  Definir edad Como Numerico;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese su nombre: &#34;;
+</span></span><span class="line"><span class="cl">  Leer nombre;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese su apellido: &#34;;
+</span></span><span class="line"><span class="cl">  Leer apellido;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese su edad: &#34;;
+</span></span><span class="line"><span class="cl">  Leer edad;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Usted se llama &#34;, nombre, &#34; &#34;, apellido, &#34; y tiene &#34;, edad, &#34; años&#34;;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>Problema:</strong> Diseñar un pseudocódigo para promediar dos notas de exámenes para luego imprimir dicho promedio.</p>
 <p><strong>Código en Pseint</strong>:</p>
-<pre tabindex="0"><code>1  Algoritmo PromedioDeDosNotas
-2    Definir nota1 Como Numerico
-3    Definir nota2 Como Numerico
-4    Definir promedio Como Numerico
-5    Escribir &#34;Ingrese primera nota: &#34;
-6    Leer nota1
-7    Escribir &#34;Ingrese segunda nota: &#34;
-8    Leer nota2
-9    promedio &lt;- (nota1 + nota2) / 2
-10   Escribir &#34;El promedio de notas es: &#34;, promedio
-11 FinAlgoritmo
-</code></pre>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Algoritmo PromediarDosNotas
+</span></span><span class="line"><span class="cl">  Definir nota1 Como Numerico;
+</span></span><span class="line"><span class="cl">  Definir nota2 Como Numerico;
+</span></span><span class="line"><span class="cl">  Definir promedio Como Numerico;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese primera nota: &#34;;
+</span></span><span class="line"><span class="cl">  Leer nota1;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese segunda nota: &#34;;
+</span></span><span class="line"><span class="cl">  Leer nota2;
+</span></span><span class="line"><span class="cl">  promedio &lt;- (nota1 + nota2) / 2;
+</span></span><span class="line"><span class="cl">  Escribir &#34;El promedio de notas es: &#34;, promedio;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </content>
 <p>
   

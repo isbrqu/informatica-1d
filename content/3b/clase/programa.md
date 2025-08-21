@@ -5,9 +5,14 @@ title = 'Programa'
 +++
 
 <style>
-th, td {
+.my-table td, .my-table th {
   text-align: center;
 }
+
+p:has(img:only-child) {
+  text-align: center;
+}
+
 </style>
 
 # Algoritmo. Parte 2. Programa
@@ -57,35 +62,35 @@ Las **variables** ocupan posiciones de memoria y **contienen valores**. Estas se
   - Signos de puntuación: `.`, `;`, `,`, etc.
   - Letras acentuadas: `ñ`, `ú`, `ö`, `Å`, etc.
 
-<table border="1">
-			<thead>
-    <tr>
-        <th>Nombres válidos</th>
-        <th>Nombres inválidos</th>
-    </tr>
-			</thead>
-				<tbody>
-					<tr>
-									<td><code>numero1</code></td>
-									<td><code>número</code></td>
-					</tr>
-					<tr>
-									<td><code>descuento</code></td>
-									<td><code>20descuento</code></td>
-					</tr>
-					<tr>
-									<td><code>totalDeRecargo2</code></td>
-									<td><code>total de recargo 2</code></td>
-					</tr>
-					<tr>
-									<td><code>sumaSalarios</code></td>
-									<td><code>suma$</code></td>
-					</tr>
-					<tr>
-									<td><code>seis</code></td>
-									<td><code>algoritmo</code></td>
-					</tr>
-				</tbody>
+<table border="1" class="my-table">
+	<thead>
+		<tr>
+			<th>Nombres válidos</th>
+			<th>Nombres inválidos</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>numero1</code></td>
+			<td><code>número</code></td>
+		</tr>
+		<tr>
+			<td><code>descuento</code></td>
+			<td><code>20descuento</code></td>
+		</tr>
+		<tr>
+			<td><code>totalDeRecargo2</code></td>
+			<td><code>total de recargo 2</code></td>
+		</tr>
+		<tr>
+			<td><code>sumaSalarios</code></td>
+			<td><code>suma$</code></td>
+		</tr>
+		<tr>
+			<td><code>seis</code></td>
+			<td><code>algoritmo</code></td>
+		</tr>
+	</tbody>
 </table>
 
 ### Tipo de dato
@@ -95,58 +100,58 @@ Las **variables** ocupan posiciones de memoria y **contienen valores**. Estas se
 Un dato o valor puede ser un número entero como el `34`, una palabra o varias palabras como `"Hola mundo"` o valores lógicos (booleanos) como `verdadero` y `falso`.
 Estos son los tres tipos de datos que usaremos:
 
-<table border="1">
-    <thead>
-        <tr>
-            <th>Tipo de dato</th>
-            <th>Ejemplos de valores</th>
-            <th>Operaciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Numérico</td>
-            <td><code>-10</code>, <code>0</code>, <code>35</code></td>
-            <td>Suma, resta, multiplicación, división, etc.</td>
-        </tr>
-        <tr>
-            <td>Texto</td>
-            <td><code>"Permite espacios"</code><br><code>"2 ñandúes"</code></td>
-            <td>Concatenación.</td>
-        </tr>
-        <tr>
-            <td>Lógico</td>
-            <td><code>verdadero<code/><br><code>falso<code/></td>
-            <td>Negación, conjunción y disyunción.</td>
-        </tr>
-    </tbody>
+<table border="1" class="my-table">
+	<thead>
+		<tr>
+			<th>Tipo de dato</th>
+			<th>Ejemplos de valores</th>
+			<th>Operaciones</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Numérico</td>
+			<td><code>-10</code>, <code>0</code>, <code>35</code></td>
+			<td>Suma, resta, multiplicación, división, etc.</td>
+		</tr>
+		<tr>
+			<td>Texto</td>
+			<td><code>"Permite espacios"</code><br><code>"2 ñandúes"</code></td>
+			<td>Concatenación.</td>
+		</tr>
+		<tr>
+			<td>Lógico</td>
+			<td><code>verdadero<code/><br><code>falso<code/></td>
+			<td>Negación, conjunción y disyunción.</td>
+		</tr>
+	</tbody>
 </table>
 
 #### Ejercitación
 
 Indicar cuales de los siguientes nombres de variables son **válidos** y **significativos**:
 
-<table border="1">
-    <tr>
-        <td><code>s2k</code></td>
-        <td><code>$total</code></td>
-    </tr>
-    <tr>
-        <td><code>descuento</code></td>
-        <td><code>cantidadDeNiños</code></td>
-    </tr>
-    <tr>
-        <td><code>nombreMoneda</code></td>
-        <td><code>litrosAgua</code></td>
-    </tr>
-    <tr>
-        <td><code>inc</code></td>
-        <td><code>FinAlgoritmo</code></td>
-    </tr>
-    <tr>
-        <td><code>metros</code></td>
-        <td><code>altura2e</code></td>
-    </tr>
+<table border="1" class="my-table">
+	<tr>
+		<td><code>s2k</code></td>
+		<td><code>$total</code></td>
+	</tr>
+	<tr>
+		<td><code>descuento</code></td>
+		<td><code>cantidadDeNiños</code></td>
+	</tr>
+	<tr>
+		<td><code>nombreMoneda</code></td>
+		<td><code>litrosAgua</code></td>
+	</tr>
+	<tr>
+		<td><code>inc</code></td>
+		<td><code>FinAlgoritmo</code></td>
+	</tr>
+	<tr>
+		<td><code>metros</code></td>
+		<td><code>altura2e</code></td>
+	</tr>
 </table>
 
 #### Etapas de una variable
@@ -159,35 +164,39 @@ En esta etapa se crea la variable con algún nombre y se indica de qué tipo de 
 
 Ejemplo de cómo definir una variable llamada `apellido` como tipo `Texto` en PSeInt:
 
+```python
+print('Hola mundo')
 ```
-1 Algoritmo Definicion
-2   Definir apellido Como Texto
-3 FinAlgoritmo
+
+```text
+Algoritmo DefinirVariableTexto
+  Definir apellido Como Texto;
+FinAlgoritmo
 ```
 
 Ejemplo de cómo definir una variable llamada `edad` como tipo `Numerico` en PSeInt:
 
-```
-1 Algoritmo Definicion
-2   Definir edad Como Numerico
-3 FinAlgoritmo
+```plain
+Algoritmo DefinirVariableNumerica
+  Definir edad Como Numerico;
+FinAlgoritmo
 ```
 
 Ejemplo de cómo definir una variable llamada `esMayorDeEdad` como tipo `Logico` en PSeInt:
 
-```
-1 Algoritmo Definicion
-2   Definir esMayorDeEdad Como Logico
-3 FinAlgoritmo
+```plain
+Algoritmo DefinirVariableLogica
+  Definir esMayorDeEdad Como Logico;
+FinAlgoritmo
 ```
 
 En muchos lenguajes de programación, incluido PSeInt, **no se permite definir dos variables con el mismo nombre**. El siguiente código en PSeInt muestra un error en la línea 3 indicando esto mismo.
 
-```
-1 Algoritmo Definicion
-2   Definir numeroDocumento como Numerico
-3   Definir numeroDocumento como Texto
-4 FinAlgoritmo
+```plain
+Algoritmo DefinirConError
+  Definir numeroDocumento como Numerico;
+  Definir numeroDocumento como Texto;
+FinAlgoritmo
 ```
 
 #### Inicialización
@@ -196,29 +205,29 @@ Esta etapa se denomina así porque es cuando la variable obtiene su valor inicia
 
 Ejemplo de cómo inicializar una variable llamada `apellido` de tipo `Texto` en PSeInt:
 
-```
-1 Algoritmo Inicializacion
-2   Definir apellido Como Texto
-3   apellido <- "Gonzaléz"
-4 FinAlgoritmo
+```plain
+Algoritmo InicializarTexto
+  Definir apellido Como Texto;
+  apellido <- "Gonzaléz";
+FinAlgoritmo
 ```
 
 Ejemplo de cómo inicializar una variable llamada `edad` como tipo `Numerico` en PSeInt:
 
-```
-1 Algoritmo Inicializacion
-2   Definir edad Como Numerico
-3   edad <- 12
-4 FinAlgoritmo
+```plain
+Algoritmo InicializarNumerico
+  Definir edad Como Numerico;
+  edad <- 12;
+FinAlgoritmo
 ```
 
 Ejemplo de cómo inicializar una variable llamada `esMayorDeEdad` como tipo `Logico` en PSeInt:
 
-```
-1 Algoritmo Inicializacion
-2   Definir esMayorDeEdad Como Logico
-3   esMayorDeEdad <- Verdadero
-4 FinAlgoritmo
+```plain
+Algoritmo InicializarLogico
+  Definir esMayorDeEdad Como Logico;
+  esMayorDeEdad <- Verdadero;
+FinAlgoritmo
 ```
 
 Como se observa en los tres ejemplos hechos en PSeInt, antes de inicializar una variable es necesario definir su tipo de dato. Para inicializarla, se debe escribir en una sola línea: primero el nombre de la variable, luego los caracteres `<-` y finalmente un valor.
@@ -229,32 +238,32 @@ Aunque la asignación se escribe de la misma manera que la inicialización, se d
 
 Ejemplo de cómo asignar en la línea 4 un nuevo valor `Texto` en PSeInt:
 
-```
-1 Algoritmo Asignacion
-2   Definir apellido Como Texto
-3   apellido <- "González"
-4   apellido <- "Méndez"
-5 FinAlgoritmo
+```plain
+Algoritmo AsignarConTexto
+  Definir apellido Como Texto;
+  apellido <- "González";
+  apellido <- "Méndez";
+FinAlgoritmo
 ```
 
 Ejemplo de cómo asignar en la línea 4 un nuevo valor `Numerico` en PSeInt:
 
-```
-1 Algoritmo Asignacion
-2   Definir edad Como Numerico
-3   edad <- 12
-4   edad <- 0
-5 FinAlgoritmo
+```plain
+Algoritmo AsignarConTexto
+  Definir edad Como Numerico;
+  edad <- 12;
+  edad <- 0;
+FinAlgoritmo
 ```
 
 Ejemplo de cómo asignar en la línea 4 un nuevo valor `Logico` en PSeInt:
 
-```
-1 Algoritmo Asignacion
-2   Definir esMayorDeEdad Como Logico
-3   esMayorDeEdad <- Verdadero
-4   esMayorDeEdad <- Falso
-5 FinAlgoritmo
+```plain
+Algoritmo AsignarConTexto
+  Definir esMayorDeEdad Como Logico;
+  esMayorDeEdad <- Verdadero;
+  esMayorDeEdad <- Falso;
+FinAlgoritmo
 ```
 
 En estos ejemplos se puede ver que **la inicialización es solo un caso especial de asignación**. A la derecha de los caracteres `<-` pueden ir más *cosas* que solo valores, puede haber otra variable y operaciones, como se verá en la siguiente etapa.
@@ -265,35 +274,35 @@ Una variable se encuentra en la etapa de obtención de su valor cuando aparece a
 
 Ejemplo de cómo obtener el valor que guarda `apellido` para concatenar a la izquierda otro texto en la línea 5 en PSeInt:
 
-```
-1 Algoritmo Obtención
-2   Definir apellido Como Texto
-3   Definir nombreCompleto Como Texto
-4   apellido <- "González"
-5   nombreCompleto <- "Martín " + apellido
-6 FinAlgoritmo
+```plain
+Algoritmo ObtenerValorDeVariable
+  Definir apellido Como Texto;
+  Definir nombreCompleto Como Texto;
+  apellido <- "González";
+  nombreCompleto <- "Martín " + apellido;
+FinAlgoritmo
 ```
 
 Ejemplo de cómo obtener el valor que guarda `edad` para restar en la línea 5 en PSeInt:
 
-```
-1 Algoritmo Obtención
-2   Definir edad Como Numerico
-3   Definir aniosFaltantes Como Numerico
-4   edad <- 12
-5   aniosFaltantes <- 18 - edad
-6 FinAlgoritmo
+```plain
+Algoritmo ObtenerValorDeVariable
+  Definir edad Como Numerico;
+  Definir aniosFaltantes Como Numerico;
+  edad <- 12;
+  aniosFaltantes <- 18 - edad;
+FinAlgoritmo
 ```
 
 Ejemplo de cómo obtener el valor que guarda `esMayorDeEdad` para negarlo en la línea 5 un nuevo valor `Logico` en PSeInt:
 
-```
-1 Algoritmo Obtención
-2   Definir esMayorDeEdad Como Logico
-3   Definir esMenorDeEdad Como Logico
-4   esMayorDeEdad <- Verdadero
-5   esMenorDeEdad <- no esMayorDeEdad
-6 FinAlgoritmo
+```plain
+Algoritmo ObtenerValorDeVariable
+  Definir esMayorDeEdad Como Logico;
+  Definir esMenorDeEdad Como Logico;
+  esMayorDeEdad <- Verdadero;
+  esMenorDeEdad <- no esMayorDeEdad;
+FinAlgoritmo
 ```
 
 ### Cómo interactuar. Lectura por teclado.
@@ -302,11 +311,11 @@ Para recibir datos de la persona que utilice nuestro programa (a la que llamarem
 
 En PSeInt se utiliza la instrucción `Leer` seguido del nombre de la variable que deseamos almacenar el dato recibido por el usuario. Ejemplo:
 
-```
-1 Algoritmo LecturaPorTeclado
-2   Definir edad Como Numerico
-3   Leer edad
-4 FinAlgoritmo
+```plain
+Algoritmo LeerPorElTeclado
+  Definir edad Como Numerico;
+  Leer edad;
+FinAlgoritmo
 ```
 
 Lo ingresado por el usuario debe coincidir con el tipo de dato definido para la variable en la que será almacenado, sino mostrará un error.
@@ -321,13 +330,13 @@ Sin embargo, dependiendo del lenguaje de programación, intentar realizar operac
  
 Por ejemplo, el siguiente código en PSeInt no puede ejecutarse porque (en la línea 5) el carácter `+` puede interpretarse tanto como una suma como una concatenación. Ante esta ambigüedad, al combinar el valor `10` (de tipo `Numerico`) con la variable `edad` (de tipo `Texto`), el programa impide su ejecución.
 
-```
-1 Algoritmo LecturaPorTecladoConError
-2   Definir edad Como Texto
-3   Definir aumento Como Texto
-4   Leer edad
-5   aumento <- edad + 10
-6 FinAlgoritmo
+```plain
+Algoritmo LeerPorElTecladoConError
+  Definir edad Como Texto;
+  Definir aumento Como Texto;
+  Leer edad;
+  aumento <- edad + 10;
+FinAlgoritmo
 ```
 
 ### Cómo mostrar. Escritura en pantalla.
@@ -336,19 +345,19 @@ Hasta el momento solo se han guardado datos predefinidos por nosotros o leídos 
 
 Ejemplo simple de como usar `Escribir` en PSeInt
 
-```
-Algoritmo EscrituraEnPantalla
-  Escribir "Hola mundo!"
+```plain
+Algoritmo EscribirEnPantalla
+  Escribir "Hola mundo!";
 FinAlgoritmo
 ```
 
 Para mostrar el valor de una variable con un mensaje se puede usar la coma (`,`) como separador de parámetros.
 
-```
-Algoritmo EscrituraEnPantalla
-  Definir nombre Como Texto
-  nombre <- "Javier"
-  Escribir "El nombre es: ", nombre
+```plain
+Algoritmo EscribirEnPantalla
+  Definir nombre Como Texto;
+  nombre <- "Javier";
+  Escribir "El nombre es: ", nombre;
 FinAlgoritmo
 ```
 
@@ -364,53 +373,53 @@ Esto también puede ser usado con otros tipos de datos que no sean necesariament
 
 **Código en Pseint**:
 
-```
-1  Algoritmo Suma
-2    Definir numero1 Como Numerico
-3    Definir numero2 Como Numerico
-4    Definir suma Como Numerico
-5    Escribir "Ingrese el primer número: "
-6    Leer numero1
-7    Escribir "Ingrese el segundo número: "
-8    Leer numero2
-9    suma <- numero1 + numero2
-10   Escribir "La suma es ", suma
-11 FinAlgoritmo
+```plain
+Algoritmo Sumar
+  Definir numero1 Como Numerico;
+  Definir numero2 Como Numerico;
+  Definir suma Como Numerico;
+  Escribir "Ingrese el primer número: ";
+  Leer numero1;
+  Escribir "Ingrese el segundo número: ";
+  Leer numero2;
+  suma <- numero1 + numero2;
+  Escribir "La suma es ", suma;
+FinAlgoritmo
 ```
 
 **Problema:** Crear un código que pida al usuario su nombre, su apellido y su edad y muestre por pantalla los tres datos.
 
 **Código en Pseint**:
 
-```
-1  Algoritmo PedirDatos
-2    Definir nombre Como Texto
-3    Definir apellido Como Texto
-4    Definir edad Como Numerico
-5    Escribir "Ingrese su nombre: "
-6    Leer nombre
-7    Escribir "Ingrese su apellido: "
-8    Leer apellido
-9    Escribir "Ingrese su edad: "
-10   Leer edad
-11   Escribir "Usted se llama ", nombre, " ", apellido, " y tiene ", edad, " años"
-12 FinAlgoritmo
+```plain
+Algoritmo PedirDatos
+  Definir nombre Como Texto;
+  Definir apellido Como Texto;
+  Definir edad Como Numerico;
+  Escribir "Ingrese su nombre: ";
+  Leer nombre;
+  Escribir "Ingrese su apellido: ";
+  Leer apellido;
+  Escribir "Ingrese su edad: ";
+  Leer edad;
+  Escribir "Usted se llama ", nombre, " ", apellido, " y tiene ", edad, " años";
+FinAlgoritmo
 ```
 
 **Problema:** Diseñar un pseudocódigo para promediar dos notas de exámenes para luego imprimir dicho promedio.
 
 **Código en Pseint**:
 
-```
-1  Algoritmo PromedioDeDosNotas
-2    Definir nota1 Como Numerico
-3    Definir nota2 Como Numerico
-4    Definir promedio Como Numerico
-5    Escribir "Ingrese primera nota: "
-6    Leer nota1
-7    Escribir "Ingrese segunda nota: "
-8    Leer nota2
-9    promedio <- (nota1 + nota2) / 2
-10   Escribir "El promedio de notas es: ", promedio
-11 FinAlgoritmo
+```plain
+Algoritmo PromediarDosNotas
+  Definir nota1 Como Numerico;
+  Definir nota2 Como Numerico;
+  Definir promedio Como Numerico;
+  Escribir "Ingrese primera nota: ";
+  Leer nota1;
+  Escribir "Ingrese segunda nota: ";
+  Leer nota2;
+  promedio <- (nota1 + nota2) / 2;
+  Escribir "El promedio de notas es: ", promedio;
+FinAlgoritmo
 ```
