@@ -315,11 +315,11 @@ FinAlgoritmo
 
 Lo ingresado por el usuario debe coincidir con el tipo de dato definido para la variable en la que será almacenado, sino mostrará un error.
  
-![lectura-texto 1](../lectura-texto-1.gif)
+![lectura-texto 1](../img/lectura-texto-1.gif)
 
 Esto ocurre principalmente con variables de tipo `Numerico`. En cambio, con variables de tipo `Texto` no sucede, ya que los caracteres numéricos se interpretan simplemente como texto.
 
-![lectura-numero-como-texto](../lectura-numero-como-texto.gif)
+![lectura-numero-como-texto](../img/lectura-numero-como-texto.gif)
 
 Sin embargo, dependiendo del lenguaje de programación, intentar realizar operaciones numéricas puede producir errores o resultados inesperados.
  
@@ -356,11 +356,11 @@ Algoritmo EscribirEnPantalla
 FinAlgoritmo
 ```
 
-![prueba-escribir](../prueba-escribir.gif)
+![prueba-escribir](../img/prueba-escribir.gif)
 
 Esto también puede ser usado con otros tipos de datos que no sean necesariamente `Texto`, ya que la instrucción `Escribir` se encarga de convertirlos a texto por nosotros.
 
-![prueba-escribir-varios](../prueba-escribir-varios.gif)
+![prueba-escribir-varios](../img/prueba-escribir-varios.gif)
 
 ## Algunos ejemplos más
 

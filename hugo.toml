@@ -17,6 +17,12 @@ enableRobotsTXT = true
 
 [markup.goldmark.renderer]
 	unsafe = true
+	[markup.goldmark]
+		[markup.goldmark.extensions]
+			[markup.goldmark.extensions.passthrough]
+				[markup.goldmark.extensions.passthrough.delimiters]
+					block = [['\[', '\]'], ['$$', '$$']]
+					inline = [['@', '@']]
 
 [markup]
 	[markup.highlight]

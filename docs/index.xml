@@ -6,8 +6,15 @@
     <description>Recent content in Informática | Isaac Bruno Quiroga on Informática</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 10 Aug 2025 23:38:02 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 25 Aug 2025 12:06:04 -0300</lastBuildDate>
     <atom:link href="https://zip.pet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estructura Secuencial</title>
+      <link>https://zip.pet/3b/estructura-secuencial/</link>
+      <pubDate>Mon, 25 Aug 2025 12:06:04 -0300</pubDate>
+      <guid>https://zip.pet/3b/estructura-secuencial/</guid>
+      <description>&lt;style&gt;&#xA;p:has(img:only-child) {&#xA;  text-align: center;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;estructura-secuencial&#34;&gt;Estructura Secuencial&lt;/h2&gt;&#xA;&lt;h3 id=&#34;geométricos&#34;&gt;Geométricos&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de los catetos.&lt;/li&gt;&#xA;&lt;li&gt;Elabore un algoritmo que calcule el área de un rectángulo.&lt;/li&gt;&#xA;&lt;li&gt;Realice un algoritmo para calcular el perímetro y área de un Rectángulo un Cuadrado.&lt;/li&gt;&#xA;&lt;li&gt;Elabore un algoritmo que calcule el área de un circulo.&lt;/li&gt;&#xA;&lt;li&gt;Escribir un algoritmo que calcule la longitud y el área de una circunferencia:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Longitud de la circunferencia = &lt;code&gt;2 × PI × radio&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Área de la circunferencia = &lt;code&gt;PI × radio&lt;/code&gt;&lt;sup&gt;&lt;code&gt;2&lt;/code&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Confeccione un algoritmo para calcular el volumen de un cilindro circular recto.&lt;br&gt;&lt;code&gt;VC = PI × r ^ 2 × h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/cilindro-circular-recto.png&#34; alt=&#34;Cilindro circular recto&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Programa</title>
       <link>https://zip.pet/3b/programa/</link>
