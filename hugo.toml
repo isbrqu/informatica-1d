@@ -1,4 +1,4 @@
-baseURL = 'zip.pet'
+baseURL = 'https://zip.pet'
 # languageCode = 'en-us'
 defaultContentLanguage = 'es'
 languageCode = 'es'

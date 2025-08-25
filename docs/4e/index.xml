@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informática | 4E on Informática</title>
-    <link>zip.pet/4e/</link>
+    <link>https://zip.pet/4e/</link>
     <description>Recent content in Informática | 4E on Informática</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="zip.pet/4e/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zip.pet/4e/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

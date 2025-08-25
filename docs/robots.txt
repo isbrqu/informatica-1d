@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: zip.pet/sitemap.xml
+Sitemap: https://zip.pet/sitemap.xml
