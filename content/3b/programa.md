@@ -12,7 +12,6 @@ title = 'Programa'
 p:has(img:only-child) {
   text-align: center;
 }
-
 </style>
 
 # Algoritmo. Parte 2. Programa
@@ -163,10 +162,6 @@ Una variable pasa por distintas etapas: Definición (o declaración), inicializa
 En esta etapa se crea la variable con algún nombre y se indica de qué tipo de dato es.
 
 Ejemplo de cómo definir una variable llamada `apellido` como tipo `Texto` en PSeInt:
-
-```python
-print('Hola mundo')
-```
 
 ```text
 Algoritmo DefinirVariableTexto

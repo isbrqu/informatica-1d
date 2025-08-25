@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informática | 1D on Informática</title>
+    <link>//localhost:1313/1d/</link>
+    <description>Recent content in Informática | 1D on Informática</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 29 Jul 2025 21:51:22 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/1d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/1d/software/</link>
+      <pubDate>Tue, 29 Jul 2025 21:51:22 -0300</pubDate>
+      <guid>//localhost:1313/1d/software/</guid>
+      <description>&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Es cualquier componente no físico de la computadora.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tipos-de-software&#34;&gt;Tipos de software&lt;/h2&gt;&#xA;&lt;h3 id=&#34;software-de-sistema&#34;&gt;Software de sistema&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Conjunto de programas que gestionan y controlan el hardware de una computadora, permitiendo la interacción con otros programas y usuarios.&lt;/p&gt;&#xA;&lt;p&gt;Es el tipo de programa que hace que la computadora funcione. Es como el &amp;ldquo;cerebro invisible&amp;rdquo; que coordina todo lo que pasa dentro del equipo, permitiendo que el hardware y los programas que usamos (como los juegos, navegadores o editores de texto) trabajen juntos. Sin software de sistema, la computadora estaría encendida, pero no podrías hacer nada con ella.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

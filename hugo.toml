@@ -1,5 +1,7 @@
 baseURL = 'zip.pet'
-languageCode = 'en-us'
+# languageCode = 'en-us'
+defaultContentLanguage = 'es'
+languageCode = 'es'
 title = 'Informática'
 theme = 'hugo-bearblog'
 author = 'Isaac Bruno Quiroga'
@@ -7,8 +9,11 @@ author = 'Isaac Bruno Quiroga'
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+
 [params]
 	hideMadeWithLine = true
+	favicon = 'favicon.ico'
+	dateFormat = '02/01'
 
 [markup.goldmark.renderer]
 	unsafe = true
@@ -17,3 +22,8 @@ enableRobotsTXT = true
 	[markup.highlight]
 		noClasses = false   # importante, para que use clases CSS en lugar de estilos inline
 		lineNos = true
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    weight = 1
