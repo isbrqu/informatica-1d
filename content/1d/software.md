@@ -4,6 +4,55 @@ draft = false
 title = 'Software'
 +++
 
+
+# Computadora
+
+Una computadora es un dispositivo electrónico capaz de:
+1. Recibir datos.
+2. Procesar los datos recibidos.
+3. Generar resultados.
+4. Almacenar información.
+
+- Ejemplos: PC, netbook, tablet, celular.
+- No ejemplos: Microonda, monitor, libro, taladro.
+
+
+# Hardware
+
+**Definición**: Es cualquier componente físico de la computadora.
+
+## Hardware crítico
+
+Es cualquier componente físico esencial para el funcionamiento básico de la computadora.
+
+Sin ese componente, la computadora no podría encender.
+
+### Principal hardware crítico:
+
+- **Placa madre**: Es el componente sobre el que se conectan el resto de componentes.
+
+<center><img src="../img/placa-madre.png" width="300"></center>
+
+- **Procesador**: El "cerebro" de la computadora, encargado de ejecutar las instrucciones.
+
+<center><img src="../img/procesador.png" width="300"></center>
+
+- **Memoria RAM**: Almacena temporalmente los datos e instrucciones que el procesador necesita para trabajar.
+
+<center><img src="../img/ram.png" width="300"></center>
+
+- **Tarjeta gráfica**: Procesa las imágenes que se muestran en la pantalla.
+
+<center><img src="../img/grafica.png" width="300"></center>
+
+- **Fuente de alimentación**: Suministra energía a todos los componentes.
+
+<center><img src="../img/fuente.png" width="300"></center>
+
+## Hardware no crítico
+
+Es cualquier componente físico que **no es escencial** para el funcionamiento básico de la computadora pero son útiles para la interacción con la computadora.
+
 # Software
 
 **Definición:** Es cualquier componente no físico de la computadora.
