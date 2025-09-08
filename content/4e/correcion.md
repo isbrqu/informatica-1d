@@ -20,7 +20,7 @@ title = 'Correcion'
   <tbody>
     <tr>
       <td>Aguirre, Ezequiel</td>
-      <td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
+						<td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
     </tr>
     <tr>
       <td>Alacama Quispe, Cliver</td>
@@ -28,15 +28,15 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Alaniz, Ramiro</td>
-      <td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
+						<td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
     </tr>
     <tr>
       <td>Alveal, Valentina</td>
-      <td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
+						<td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
     </tr>
     <tr>
       <td>Amoroso, Priscila</td>
-      <td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
+						<td>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
     </tr>
     <tr>
       <td>Ansorena, Milagros</td>
@@ -44,11 +44,11 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Campos, Nahiara</td>
-      <td>Completar: E3.<br>Corregir: E4, E5.</td>
+						<td>Completar: E3.<br>Corregir: E4, E5.</td>
     </tr>
     <tr>
       <td>Carrasco, Sebastián</td>
-      <td></td>
+      <td>Compartir.</td>
     </tr>
     <tr>
       <td>Diaz, Aimara Jaqueline</td>
@@ -56,11 +56,11 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Figueroa, Lena</td>
-      <td></td>
+      <td>Compartir.</td>
     </tr>
     <tr>
       <td>Figueroa, Yanina</td>
-      <td></td>
+      <td>Compartir.</td>
     </tr>
     <tr>
       <td>Garrido, Milena</td>
@@ -68,7 +68,7 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Jimenez Martinez, Nicole</td>
-      <td>Formatear: B2, B3, B4, B5.<br>Formatear: D2, D3, D4, D5.<br>Corregir: E2, E3, E4, E5.<br>Completar: A8, A9, B8, B9, B10, B11, B12.</td>
+						<td>Formatear: B2, B3, B4, B5.<br>Formatear: D2, D3, D4, D5.<br>Corregir: E2, E3, E4, E5.<br>Completar: A8, A9, B8, B9, B10, B11, B12.</td>
     </tr>
     <tr>
       <td>Giuliano, Martin</td>
@@ -76,7 +76,7 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Gomez Veizaga, Celina</td>
-      <td>Corregir: B10, B11, D1.<br>Completar: B12.</td>
+						<td>Corregir: B10, B11, D1.<br>Completar: B12.</td>
     </tr>
     <tr>
       <td>Huarayo, Jasmin</td>
@@ -84,7 +84,7 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Huenuqueo, Celina</td>
-      <td>Corregir: E2, E3, E4, E5.<br>Completar: B9.</td>
+						<td>Corregir: E2, E3, E4, E5.<br>Completar: B9.</td>
     </tr>
     <tr>
       <td>Linares, Magali</td>
@@ -92,11 +92,11 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Jancko, Danna</td>
-      <td>Formatear: D2, D3.<br>Corregir: E2, E3, E4, E5.</td>
+						<td>Formatear: D2, D3.<br>Corregir: E2, E3, E4, E5.</td>
     </tr>
     <tr>
       <td>Jaramillo, Jonatan</td>
-      <td></td>
+      <td>Compartir.</td>
     </tr>
     <tr>
       <td>Perez, Rocio Celina</td>
@@ -120,7 +120,7 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Vega Mella, Lourdes</td>
-      <td>Completar: D4, D5.<br>Completar: E2, E3, E4, E5.</td>
+						<td>Completar: D4, D5.<br>Completar: E2, E3, E4, E5.</td>
     </tr>
     <tr>
       <td>Vargas, Henry</td>
@@ -128,11 +128,11 @@ title = 'Correcion'
     </tr>
     <tr>
       <td>Chalicki, Alexander</td>
-      <td></td>
+      <td>Compartir.</td>
     </tr>
     <tr>
       <td>Guardia, Agustín</td>
-      <td>Formatear: B2, B3, B4, B5.<br>Corregir: D1, D2, D3, D4, D5.<br>Completar: E1, E2, E3, E4, E5.<br>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
+						<td>Formatear: B2, B3, B4, B5.<br>Corregir: D1, D2, D3, D4, D5.<br>Completar: E1, E2, E3, E4, E5.<br>Completar: A8, A9.<br>Completar: B8, B9, B10, B11, B12.</td>
     </tr>
   </tbody>
 </table>
