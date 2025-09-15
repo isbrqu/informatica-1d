@@ -1,7 +1,7 @@
 +++
 date = '2025-09-08T11:36:15-03:00'
 draft = false
-title = 'Correcion'
+title = 'Correción'
 +++
 
 <style>
