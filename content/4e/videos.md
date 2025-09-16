@@ -21,3 +21,7 @@ title = 'Videos'
 
 {{< youtube Rm52i1QUctA >}}
 
+## Paso 2. 1. Escribir nombres de alquileres
+
+{{< youtube lOY93gEt__8 >}}
+
