@@ -6,9 +6,10 @@ title = 'Informática'
 theme = 'hugo-bearblog'
 author = 'Isaac Bruno Quiroga'
 
+publishDir = 'docs'
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
-
 
 [params]
 	hideMadeWithLine = true
