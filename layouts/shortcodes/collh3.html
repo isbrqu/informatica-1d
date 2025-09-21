@@ -1,0 +1,4 @@
+<details {{ with .Get "open" }}open{{ end }}>
+  <summary><h3>{{ .Get "title" }}</h3></summary>
+  {{ .Inner | markdownify }}
+</details>

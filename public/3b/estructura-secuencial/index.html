@@ -10,8 +10,9 @@
 <meta name="title" content="Estructura Secuencial" />
 <meta name="description" content="
 Estructura Secuencial
-Geométricos
 
+  Geométricos
+  
 Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de los catetos.
 Elabore un algoritmo que calcule el área de un rectángulo.
 Realice un algoritmo para calcular el perímetro y área de un Rectángulo un Cuadrado.
@@ -234,13 +235,17 @@ VC = PI × r ^ 2 × h">
 
 <content>
   <style>
-p:has(img:only-child) {
-  text-align: center;
-}
+	p:has(img:only-child) {
+		text-align: center;
+	}
+	summary h3 {
+		display: inline;
+	}
 </style>
 <h2 id="estructura-secuencial">Estructura Secuencial</h2>
-<h3 id="geométricos">Geométricos</h3>
-<ol>
+<details >
+  <summary><h3>Geométricos</h3></summary>
+  <ol>
 <li>Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de los catetos.</li>
 <li>Elabore un algoritmo que calcule el área de un rectángulo.</li>
 <li>Realice un algoritmo para calcular el perímetro y área de un Rectángulo un Cuadrado.</li>
@@ -254,8 +259,11 @@ p:has(img:only-child) {
 <li>Confeccione un algoritmo para calcular el volumen de un cilindro circular recto.<br><code>VC = PI × r ^ 2 × h</code></li>
 </ol>
 <p><img src="../img/cilindro-circular-recto.png" alt="Cilindro circular recto"></p>
-<h3 id="lógicos">Lógicos</h3>
-<ol>
+</details>
+
+<details open>
+  <summary><h3>Lógicos</h3></summary>
+  <ol>
 <li>Escribir un algoritmo que reciba dos variables enteras e intercambie sus valores. Se deben mostrar los valores que tienen finalmente las variables.</li>
 <li>Elaborar un algoritmo que solicite un número de 2 cifras y que muestre el número de unidades y decenas que lo componen.</li>
 <li>Desarrollar un algoritmo que permita invertir un número de 3 cifras. Por ejemplo, invertir a <code>492</code> da como resultado <code>294</code>.</li>
@@ -266,24 +274,36 @@ p:has(img:only-child) {
 </ul>
 </li>
 </ol>
-<h3 id="operaciones">Operaciones</h3>
-<ol>
+
+</details>
+
+<details >
+  <summary><h3>Operaciones</h3></summary>
+  <ol>
 <li>Diseñar un algoritmo que lea un entero, duplicarlo y visualizar el resultado.</li>
 <li>Elabore un algoritmo que pide al usuario un número y de este muestre: el sucesor, el antecesor, el cuadrado y la raíz cuadrada.</li>
 <li>Realice un algoritmo donde pida al usuario dos números y muestre su: suma, resta, multiplicación y división.</li>
 <li>Escribir un algoritmo que pida dos números enteros y muestre el cociente y el resto de la división entera entre ambos.</li>
 <li>Diseñar un algoritmo que permita leer cuatro números, calcule el promedio de los cuatro y muestre el resultado.</li>
 </ol>
-<h3 id="combinados">Combinados</h3>
-<ol>
+
+</details>
+
+<details >
+  <summary><h3>Combinados</h3></summary>
+  <ol>
 <li><strong>Precio del estacionamiento (conversión y por cada):</strong> Realice un algoritmo para calcular lo que debe pagar un cliente en un estacionamiento, sabiendo que se paga <code>$85</code> la hora. Se debe conocer el tiempo de estacionamiento en horas y minutos.</li>
 <li><strong>Backup en CDs (conversión y por cada):</strong> Elaborar un algoritmo que permita calcular el número de CDs necesarios para hacer una copia de seguridad, de la información almacenada en un disco cuya capacidad se conoce. Nota: un CD tiene <code>700 MB</code>. Un <code>GB = 1024 MB</code>.</li>
 <li><strong>Velocidad del proyectil (conversión y formulación):</strong> Escribir un algoritmo que calcule la velocidad de un proyectil que recorre <code>E</code> kilómetros en <code>T</code> minutos. <code>Velocidad = espacio / tiempo</code>. Expresar el resultado en <code>m/s</code>.</li>
 <li><strong>Sueldo empleado (por cada y porcentajes):</strong> Diseñar un algoritmo para calcular el sueldo de un empleado ingresando las horas trabajadas y el valor de la hora. Con estos datos se calculará el sueldo básico, luego el descuento ingresado por teclado, y finalmente el sueldo neto.</li>
 <li><strong>Sueldo de obrero (porcentaje a cantidad y por cada):</strong> Realice un algoritmo para calcular el nuevo salario de un obrero si obtuvo un incremento del <code>25%</code> sobre su salario anterior, y teniendo en cuenta la cantidad de horas extras trabajadas (valor de la hora extra <code>$55</code>).</li>
 </ol>
-<h3 id="conversiones">Conversiones</h3>
-<ol>
+
+</details>
+
+<details >
+  <summary><h3>Conversiones</h3></summary>
+  <ol>
 <li><strong>Moneda:</strong> Realice un algoritmo para convertir una determinada suma de dinero de euros a pesos.</li>
 <li><strong>Tiempo:</strong> Realice un algoritmo para calcular la edad de una persona teniendo los años, meses y días.</li>
 <li><strong>Longitud 1:</strong> Diseñar un algoritmo que convierta centímetros en pulgadas (1 pulgada = 2,54 cm).</li>
@@ -304,8 +324,12 @@ p:has(img:only-child) {
 </ul>
 </li>
 </ol>
-<h3 id="por-cada">Por cada</h3>
-<ol>
+
+</details>
+
+<details >
+  <summary><h3>Por cada</h3></summary>
+  <ol>
 <li><strong>Precio por peso:</strong> Realice un algoritmo que permita ingresar el precio de un producto y su precio por kilo, y calcule su valor en pesos.</li>
 <li><strong>Puntajes por respuestas:</strong> Elaborar un algoritmo que solicite el número de respuestas correctas, incorrectas y en blanco de un concurso. El puntaje se calcula:
 <ul>
@@ -329,8 +353,12 @@ p:has(img:only-child) {
 </ul>
 </li>
 </ol>
-<h3 id="porcentajes">Porcentajes</h3>
-<ol>
+
+</details>
+
+<details >
+  <summary><h3>Porcentajes</h3></summary>
+  <ol>
 <li><strong>Precio del producto (porcentaje a cantidad):</strong> Obtener el precio de venta de un artículo para ganar <code>30%</code>.</li>
 <li><strong>Productos con IVA (porcentaje a cantidad):</strong> Calcular el IVA de dos productos y luego el monto total en pesos.</li>
 <li><strong>Descuento de compra 1:</strong> Calcular el descuento en pesos de una compra con 20% de descuento.</li>
@@ -347,10 +375,17 @@ p:has(img:only-child) {
 <li><strong>Descontado de compra (cantidad a porcentaje):</strong> Calcular porcentaje descontado de una compra, con precio tarifa y precio pagado.</li>
 <li><strong>Inversión a la empresa (cantidad a porcentaje):</strong> Tres personas invierten distinto capital en una empresa. Calcular el porcentaje que aporta cada una respecto al total.</li>
 </ol>
-<h3 id="promedio">Promedio</h3>
-<ol>
+
+</details>
+
+<details >
+  <summary><h3>Promedio</h3></summary>
+  <ol>
 <li>Todos los lunes, miércoles y viernes, una persona corre la misma ruta y cronometra los tiempos obtenidos. Determinar el tiempo promedio que la persona tarda en recorrer la ruta en una semana cualquiera.</li>
 </ol>
+
+</details>
+
 
 </content>
 <p>
