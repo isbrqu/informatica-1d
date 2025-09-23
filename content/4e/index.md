@@ -4,3 +4,5 @@ date = 2025-08-25T10:49:03-03:00
 draft = false
 +++
 
+- [Correcciones](correccion)
+- [Videos](videos)
