@@ -8,13 +8,144 @@ title = 'Correción'
 	table { border-collapse: collapse; width: 100%; }
 	th, td { border: 3px solid #ccc; padding: 6px 8px; text-align: left; }
 	thead { background: #f7f7f7; }
+	summary h3 { display: inline; }
 </style>
 
+{{<collh3 open=true title="Tarea: Suma materiales">}}
 <table>
   <thead>
     <tr>
       <th>Apellidos, Nombre</th>
-      <th>Tarea: Correción Alquileres</th>
+      <th>Corrreción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aguirre, Ezequiel</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Alacama Quispe, Cliver</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Alaniz, Ramiro</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Alveal, Valentina</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Amoroso, Priscila</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Ansorena, Milagros</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Campos, Nahiara</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Carrasco, Sebastián</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Diaz, Aimara Jaqueline</td>
+      <td>Corregir: B8.</td>
+    </tr>
+    <tr>
+      <td>Figueroa, Lena</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Figueroa, Yanina</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Garrido, Milena</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Jimenez Martinez, Nicole</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Giuliano, Martin</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Gomez Veizaga, Celina</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Huarayo, Jasmin</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Huenuqueo, Celina</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Linares, Magali</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Jancko, Danna</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Jaramillo, Jonatan</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Perez, Rocio Celina</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Poblete, Jeremias</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Rojas, Alex</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Rothen, Jaqueline</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Vargas, Angela Fernanda</td>
+      <td>Bien.</td>
+    </tr>
+    <tr>
+      <td>Vega Mella, Lourdes</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Vargas, Henry</td>
+      <td>Bien</td>
+    </tr>
+    <tr>
+      <td>Chalicki, Alexander</td>
+      <td>Compartir.</td>
+    </tr>
+    <tr>
+      <td>Guardia, Agustín</td>
+      <td>Compartir.</td>
+    </tr>
+  </tbody>
+</table>
+{{</collh3>}}
+
+{{<collh3 title="Tarea: Alquileres (desactualizado)">}}
+<table>
+  <thead>
+    <tr>
+      <th>Apellidos, Nombre</th>
+      <th>Corrección</th>
     </tr>
   </thead>
   <tbody>
@@ -136,4 +267,4 @@ title = 'Correción'
     </tr>
   </tbody>
 </table>
-
+{{</collh3>}}
