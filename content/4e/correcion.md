@@ -4,5 +4,7 @@ draft = false
 title = 'Correción'
 +++
 
-<meta http-equiv="refresh" content="5; url=/4e/correccion">
+Cargando redirección:
+
+<meta http-equiv="refresh" content="5; url=https://zip.pet/4e/correccion">
 
