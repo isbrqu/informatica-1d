@@ -1,7 +1,7 @@
 +++
 date = '2025-09-08T11:36:15-03:00'
 draft = false
-title = 'Correción'
+title = 'Corrección'
 +++
 
 <style>
@@ -16,7 +16,7 @@ title = 'Correción'
   <thead>
     <tr>
       <th>Apellidos, Nombre</th>
-      <th>Corrreción</th>
+      <th>Corrección</th>
     </tr>
   </thead>
   <tbody>
