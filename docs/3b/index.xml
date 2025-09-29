@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informática | 3B on Informática</title>
+    <link>https://zip.pet/3b/</link>
+    <description>Recent content in Informática | 3B on Informática</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 15 Sep 2025 17:27:17 -0300</lastBuildDate>
+    <atom:link href="https://zip.pet/3b/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cargando</title>
+      <link>https://zip.pet/3b/correcion/</link>
+      <pubDate>Mon, 15 Sep 2025 17:27:17 -0300</pubDate>
+      <guid>https://zip.pet/3b/correcion/</guid>
+      <description>&lt;h1 id=&#34;cargando&#34;&gt;Cargando&amp;hellip;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;por-favor-espere&#34;&gt;Por favor espere&lt;/h2&gt;&#xA;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=../img/2025-09-15-correcion.jpg&#34;&gt;</description>
+    </item>
+    <item>
+      <title>Estructura Secuencial</title>
+      <link>https://zip.pet/3b/estructura-secuencial/</link>
+      <pubDate>Mon, 25 Aug 2025 12:06:04 -0300</pubDate>
+      <guid>https://zip.pet/3b/estructura-secuencial/</guid>
+      <description>&lt;style&gt;&#xA;&#x9;p:has(img:only-child) {&#xA;&#x9;&#x9;text-align: center;&#xA;&#x9;}&#xA;&#x9;summary h3 {&#xA;&#x9;&#x9;display: inline;&#xA;&#x9;}&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;estructura-secuencial&#34;&gt;Estructura Secuencial&lt;/h2&gt;&#xA;&lt;details &gt;&#xA;  &lt;summary&gt;&lt;h3&gt;Geométricos&lt;/h3&gt;&lt;/summary&gt;&#xA;  &lt;ol&gt;&#xA;&lt;li&gt;Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de los catetos.&lt;/li&gt;&#xA;&lt;li&gt;Elabore un algoritmo que calcule el área de un rectángulo.&lt;/li&gt;&#xA;&lt;li&gt;Realice un algoritmo para calcular el perímetro y área de un Rectángulo un Cuadrado.&lt;/li&gt;&#xA;&lt;li&gt;Elabore un algoritmo que calcule el área de un circulo.&lt;/li&gt;&#xA;&lt;li&gt;Escribir un algoritmo que calcule la longitud y el área de una circunferencia:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Longitud de la circunferencia = &lt;code&gt;2 × PI × radio&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Área de la circunferencia = &lt;code&gt;PI × radio&lt;/code&gt;&lt;sup&gt;&lt;code&gt;2&lt;/code&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Confeccione un algoritmo para calcular el volumen de un cilindro circular recto.&lt;br&gt;&lt;code&gt;VC = PI × r ^ 2 × h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/cilindro-circular-recto.png&#34; alt=&#34;Cilindro circular recto&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programa</title>
+      <link>https://zip.pet/3b/programa/</link>
+      <pubDate>Sun, 10 Aug 2025 23:38:02 -0300</pubDate>
+      <guid>https://zip.pet/3b/programa/</guid>
+      <description>&lt;style&gt;&#xA;.my-table td, .my-table th {&#xA;  text-align: center;&#xA;}&#xA;&#xA;p:has(img:only-child) {&#xA;  text-align: center;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;h1 id=&#34;algoritmo-parte-2-programa&#34;&gt;Algoritmo. Parte 2. Programa&lt;/h1&gt;&#xA;&lt;h2 id=&#34;programa&#34;&gt;Programa&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición&lt;/strong&gt;: Un programa es la implementación de un algoritmo en un lenguaje de programación listo para su ejecución.&lt;/p&gt;&#xA;&lt;p&gt;Mientras que &lt;strong&gt;un algoritmo es una idea abstracta&lt;/strong&gt; de una secuencia de pasos ordenada que puede ser escrito (implementado) en un diagrama de flujo, pseudocódigo o código fuente, &lt;strong&gt;solo se llama programa a un algoritmo escrito en código fuente&lt;/strong&gt; o en &lt;strong&gt;un pseudocódigo lo suficientemente bien definido&lt;/strong&gt; como para que una computadora lo ejecute.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Algoritmo</title>
+      <link>https://zip.pet/3b/algoritmo/</link>
+      <pubDate>Sun, 03 Aug 2025 14:50:16 -0300</pubDate>
+      <guid>https://zip.pet/3b/algoritmo/</guid>
+      <description>&lt;h1 id=&#34;algoritmo&#34;&gt;Algoritmo&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición:&lt;/strong&gt; Un algoritmo es una secuencia de pasos ordenados lógica y cronológicamente para la resolución de un problema.&lt;/p&gt;&#xA;&lt;h2 id=&#34;características-de-un-algoritmo&#34;&gt;Características de un algoritmo&lt;/h2&gt;&#xA;&lt;p&gt;Un algoritmo se define principalmente por sus pasos. Cada paso y el conjunto de estos, deben ser &lt;strong&gt;simples&lt;/strong&gt;, &lt;strong&gt;precisos&lt;/strong&gt; y &lt;strong&gt;exactos&lt;/strong&gt;. Además deben tener un &lt;strong&gt;orden lógico&lt;/strong&gt;, un &lt;strong&gt;inicio&lt;/strong&gt; y un &lt;strong&gt;fin&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ejemplos-de-algoritmos&#34;&gt;Ejemplos de algoritmos&lt;/h2&gt;&#xA;&lt;p&gt;Algunos ejemplos de algoritmos son:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Las instrucciones para andar en una bicicleta.&lt;/li&gt;&#xA;&lt;li&gt;Una receta de cocina.&lt;/li&gt;&#xA;&lt;li&gt;Los pasos para armar un mueble.&lt;/li&gt;&#xA;&lt;li&gt;Cómo utilizar un electrodoméstico.&lt;/li&gt;&#xA;&lt;li&gt;Obtener el mayor de cinco números dados.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cómo-implementar-un-algoritmo&#34;&gt;¿Cómo implementar un algoritmo?&lt;/h2&gt;&#xA;&lt;p&gt;Los algoritmos se pueden expresar en:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

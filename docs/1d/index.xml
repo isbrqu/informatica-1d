@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informática | 1D on Informática</title>
+    <link>https://zip.pet/1d/</link>
+    <description>Recent content in Informática | 1D on Informática</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 29 Jul 2025 21:51:22 -0300</lastBuildDate>
+    <atom:link href="https://zip.pet/1d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software</title>
+      <link>https://zip.pet/1d/software/</link>
+      <pubDate>Tue, 29 Jul 2025 21:51:22 -0300</pubDate>
+      <guid>https://zip.pet/1d/software/</guid>
+      <description>&lt;style&gt;&#xA;&#x9;figure {&#xA;&#x9;&#x9;display: inline-block;&#xA;&#x9;}&#xA;&#x9;figure img {&#xA;&#x9;&#x9;border-radius: 10px;&#xA;&#x9;}&#xA;&lt;/style&gt;&#xA;&lt;h1 id=&#34;computadora&#34;&gt;Computadora&lt;/h1&gt;&#xA;&lt;p&gt;Una computadora es un dispositivo electrónico capaz de:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Recibir datos.&lt;/li&gt;&#xA;&lt;li&gt;Procesar los datos recibidos.&lt;/li&gt;&#xA;&lt;li&gt;Generar resultados.&lt;/li&gt;&#xA;&lt;li&gt;Almacenar información.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ejemplos: PC, netbook, tablet, celular.&lt;/li&gt;&#xA;&lt;li&gt;No ejemplos: Microonda, monitor, libro, taladro.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;hardware&#34;&gt;Hardware&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definición&lt;/strong&gt;: Es cualquier componente físico de la computadora.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hardware-crítico&#34;&gt;Hardware crítico&lt;/h2&gt;&#xA;&lt;p&gt;Es cualquier componente físico esencial para el funcionamiento básico de la computadora.&lt;/p&gt;&#xA;&lt;p&gt;Sin ese componente, la computadora no podría encender.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
