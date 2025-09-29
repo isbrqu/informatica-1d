@@ -29,6 +29,6 @@ enableRobotsTXT = true
 		lineNos = true
 
 [languages]
-  [languages.es]
-    languageName = "Español"
-    weight = 1
+	[languages.es]
+		languageName = "Español"
+		weight = 1
