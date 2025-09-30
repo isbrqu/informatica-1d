@@ -59,17 +59,17 @@
     </item>
     <item>
       <title>Corrección</title>
-      <link>https://zip.pet/4e/correccion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zip.pet/4e/correccion/</guid>
-      <description>&lt;style&gt;&#xA;    pre {&#xA;        font-size: 20px;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;label&gt;Estudiantes&lt;/label&gt;&lt;br&gt;&#xA;&lt;select id=&#34;estudiante&#34;&gt;&lt;/select&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;correccion&#34;&gt;&lt;/div&gt;&#xA;&lt;img alt=&#34;QR de la url&#34; src=&#34;qr.png&#34; width=&#34;300&#34;&gt;&#xA;&lt;script src=&#34;https://zip.pet/js/papaparse.v5-4-1.min.js&#34; defer&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://zip.pet/js/table-of-csv.js&#34; defer&gt;&lt;/script&gt;</description>
-    </item>
-    <item>
-      <title>Corrección</title>
       <link>https://zip.pet/example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zip.pet/example/</guid>
       <description>&lt;table&gt;&#xD;&#xA;        &lt;thead&gt;&#xD;&#xA;          &lt;tr&gt;&#xD;&#xA;            &#xD;&#xA;              &lt;th&gt;name&lt;/th&gt;&#xD;&#xA;            &#xD;&#xA;              &lt;th&gt;type&lt;/th&gt;&#xD;&#xA;            &#xD;&#xA;              &lt;th&gt;breed&lt;/th&gt;&#xD;&#xA;            &#xD;&#xA;              &lt;th&gt;age&lt;/th&gt;&#xD;&#xA;            &#xD;&#xA;          &lt;/tr&gt;&#xD;&#xA;        &lt;/thead&gt;&#xD;&#xA;        &lt;tbody&gt;&#xD;&#xA;          &#xD;&#xA;            &lt;tr&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;Spot&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;dog&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;Collie&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;3&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;          &#xD;&#xA;            &lt;tr&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;Felix&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;cat&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;Malicious&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;                &lt;td&gt;7&lt;/td&gt;&#xD;&#xA;              &#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;          &#xD;&#xA;        &lt;/tbody&gt;&#xD;&#xA;      &lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Correcciones</title>
+      <link>https://zip.pet/4e/correccion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zip.pet/4e/correccion/</guid>
+      <description>&lt;style&gt;&#xA;    select {&#xA;  appearance: none;       /* elimina estilos por defecto en navegadores modernos */&#xA;  -webkit-appearance: none;&#xA;  -moz-appearance: none;&#xA;&#xA;  width: 100%;&#xA;  max-width: 300px;&#xA;  padding: 0.6em 1em;&#xA;  font-size: 1rem;&#xA;  font-family: inherit;&#xA;&#xA;  border: 1px solid #ccc;&#xA;  border-radius: 6px;&#xA;  background-color: #fff;&#xA;  color: #333;&#xA;&#xA;  line-height: 1.4;&#xA;  cursor: pointer;&#xA;  display: block;&#xA;}&#xA;&#xA;/* Compatibilidad con foco/accesibilidad */&#xA;select:focus {&#xA;  border-color: #666;&#xA;  outline: none;&#xA;  box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.2);&#xA;}&#xA;&#xA;    pre {&#xA;        font-size: 20px;&#xA;    }&#xA;    h3 {&#xA;        text-decoration: underline;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;h1 id=&#34;correcciones&#34;&gt;Correcciones&lt;/h1&gt;&#xA;&lt;p&gt;&lt;label&gt;Seleccione su &lt;strong&gt;apellido y nombre&lt;strong&gt;: &lt;/label&gt;&#xA;&lt;select id=&#34;estudiante&#34;&gt;&lt;/select&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Informática | 4E</title>
