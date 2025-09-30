@@ -1,6 +1,4 @@
 +++
-date = '2025-09-08T11:36:15-03:00'
-draft = false
 title = 'Corrección'
 +++
 
