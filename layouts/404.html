@@ -1,0 +1,16 @@
+{{ define "title" }}404{{ end }}
+
+{{ define "main" }}
+<script>
+(function () {
+    var p = location.pathname;
+    var lower = p.toLowerCase();
+    if (p !== lower) {
+    // Conserva query y hash
+    location.replace(lower + location.search + location.hash);
+    }
+})();
+</script>
+<h1>404</h1>
+<h2>ʕノ•ᴥ•ʔノ ︵ ┻━┻</h2>
+{{ end }}
