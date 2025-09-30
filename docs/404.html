@@ -191,8 +191,23 @@
     color: var(--visited-color);
   }
 
-</style>
+   
+  p:has(img:only-child) {
+    text-align: center;
+  }
 
+  summary h3 {
+    display: inline;
+  }
+
+  summary h4 {
+    display: inline;
+  }
+
+  summary:has(h4) {
+    margin-left: 40px;
+  }
+</style>
 </head>
 
 <body>
@@ -203,6 +218,16 @@
 </nav>
 </header>
   <main>
+<script>
+(function () {
+    var p = location.pathname;
+    var lower = p.toLowerCase();
+    if (p !== lower) {
+    
+    location.replace(lower + location.search + location.hash);
+    }
+})();
+</script>
 <h1>404</h1>
 <h2>ʕノ•ᴥ•ʔノ ︵ ┻━┻</h2>
 

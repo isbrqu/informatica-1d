@@ -199,8 +199,23 @@
     color: var(--visited-color);
   }
 
-</style>
+   
+  p:has(img:only-child) {
+    text-align: center;
+  }
 
+  summary h3 {
+    display: inline;
+  }
+
+  summary h4 {
+    display: inline;
+  }
+
+  summary:has(h4) {
+    margin-left: 40px;
+  }
+</style>
 </head>
 
 <body>
