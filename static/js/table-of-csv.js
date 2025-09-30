@@ -80,7 +80,7 @@ Guardia, Agustín	Bien.	Compartir.`
     const cc = matches[0].slice(1)
     for (let i = 0; i < header.slice(1).length; i++) {
       const h3 = document.createElement('h3');
-      h3.textContent = hd[i]
+      h3.textContent = `${hd[i]}: `;
       correccion.appendChild(h3)
       const code = document.createElement('pre');
       code.textContent = cc[i]

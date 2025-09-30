@@ -31,12 +31,9 @@ select:focus {
   box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.2);
 }
 
-    pre {
-        font-size: 20px;
-    }
-    h3 {
-        text-decoration: underline;
-    }
+pre {
+  font-size: 20px;
+}
 </style>
 
 # Correcciones
@@ -47,8 +44,8 @@ select:focus {
 <div id="correccion"></div>
 
 <details>
-<summary>VER QR</summary>
-<img alt="QR de la url" src="qr.png" width="300">
+  <summary>VER QR</summary>
+  <img alt="QR de la url" src="qr.png" width="300">
 </details>
 
 <script src="/js/papaparse.v5-4-1.min.js" defer></script>
