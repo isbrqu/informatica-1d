@@ -1,16 +1,16 @@
 +++
 title = 'Estructura Secuencial'
-date = '2025-08-25T12:06:04-03:00'
-draft = false
+date = 2025-08-25T12:06:04-03:00
 +++
 
 <style>
-	p:has(img:only-child) {
-		text-align: center;
-	}
-	summary h3 {
-		display: inline;
-	}
+   ol {
+      margin-bottom: 0;
+   }
+   div.highlight {
+      margin-top: 0;
+      margin-left: 40px;
+   }
 </style>
 
 ## Estructura Secuencial
@@ -30,12 +30,64 @@ draft = false
 {{</collh3>}}
 
 {{<collh3 open=true title="Lógicos">}}
-1. Escribir un algoritmo que reciba dos variables enteras e intercambie sus valores. Se deben mostrar los valores que tienen finalmente las variables.
+1. **Intercambiar Valores**: Escribir un algoritmo que reciba dos variables enteras e intercambie sus valores. Se deben mostrar los valores que tienen finalmente las variables.
+{{<solution>}}
+Algoritmo IntercambiarValores
+  Definir num1 Como Entero;
+  Definir num2 Como Entero;
+  Definir aux Como Entero;
+  Escribir "Ingrese el primer número: ";
+  Leer num1;
+  Escribir "Ingrese el segundo número: ";
+  Leer num2;
+  aux <- num1;
+  num1 <- num2;
+  num2 <- aux;
+  Escribir "El primer número vale: ", num1;
+  Escribir "El segundo número vale: ", num2;
+FinAlgoritmo
+{{</solution>}}
+
 2. Elaborar un algoritmo que solicite un número de 2 cifras y que muestre el número de unidades y decenas que lo componen.
+{{<solution>}}
+Algoritmo DescomponerNumero
+  Definir num Como Entero;
+  Definir unidades Como Entero;
+  Definir decenas Como Entero;
+  Escribir "Ingrese un número de dos cifras: ";
+  Leer num;
+  unidades <- num % 10;
+  decenas <- trunc(num / 10);
+  Escribir "El número de unidades es ", unidades;
+  Escribir "El número de decenas es ", decenas;
+FinAlgoritmo
+{{</solution>}}
+
 3. Desarrollar un algoritmo que permita invertir un número de 3 cifras. Por ejemplo, invertir a `492` da como resultado `294`.
+{{<solution>}}
+Algoritmo InvertirDigitos
+  Definir num Como Entero;
+  Definir unidad Como Entero;
+  Definir decena Como Entero;
+  Definir centena Como Entero;
+  Definir invertido Como Entero;
+  Escribir "Ingrese un número de tres cifras: ";
+  Leer num;
+  unidad <- num % 10;
+  decena <- trunc(num / 10) % 10;
+  centena <- trunc(num / 100);
+  invertido <- unidad * 100 + decena * 10 + centena;
+  Escribir "El número invertido es: ", invertido;
+FinAlgoritmo
+{{</solution>}}
+
 4. Para un número `N` de 5 cifras y un valor `K` entre 2 y 5, reemplazar en `N` el dígito `K` por 0.
 	- Ejemplo 1: Para `N = 32415` y `K = 3`, se debe obtener `32015`.
 	- Ejemplo 2: Para `N = 32415` y `K = 5`, se debe obtener `32410`.
+{{<solution>}}
+
+{{</solution>}}
+
 {{</collh3>}}
 
 {{<collh3 title="Operaciones">}}

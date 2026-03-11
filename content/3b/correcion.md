@@ -1,7 +1,7 @@
 +++
 date = '2025-09-15T17:27:17-03:00'
 draft = false
-title = 'Cargando'
+title = 'Correciones'
 +++
 
 # Cargando...

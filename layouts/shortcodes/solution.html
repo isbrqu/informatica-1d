@@ -1,0 +1,9 @@
+{{- $open := .Get "open" | default false -}}
+{{- $title := .Get "title" | default "Solución" -}}
+{{- $lang := .Get "lang" | default "plaintext" -}}
+{{- $raw := .Inner -}}
+{{- $code := $raw | replaceRE "^\n" "" -}}
+<details {{ if $open }}open{{ end }}>
+  <summary><h4 class="solution-summary">{{ $title }}</h4></summary>
+  {{- highlight $code $lang "" -}}
+</details>

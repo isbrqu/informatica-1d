@@ -56,7 +56,7 @@ VC = PI × r ^ 2 × h">
 VC = PI × r ^ 2 × h">
   <meta itemprop="datePublished" content="2025-08-25T12:06:04-03:00">
   <meta itemprop="dateModified" content="2025-08-25T12:06:04-03:00">
-  <meta itemprop="wordCount" content="1029">
+  <meta itemprop="wordCount" content="1248">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -220,8 +220,23 @@ VC = PI × r ^ 2 × h">
     color: var(--visited-color);
   }
 
-</style>
+   
+  p:has(img:only-child) {
+    text-align: center;
+  }
 
+  summary h3 {
+    display: inline;
+  }
+
+  summary h4 {
+    display: inline;
+  }
+
+  summary:has(h4) {
+    margin-left: 40px;
+  }
+</style>
 </head>
 
 <body>
@@ -235,12 +250,13 @@ VC = PI × r ^ 2 × h">
 
 <content>
   <style>
-	p:has(img:only-child) {
-		text-align: center;
-	}
-	summary h3 {
-		display: inline;
-	}
+   ol {
+      margin-bottom: 0;
+   }
+   div.highlight {
+      margin-top: 0;
+      margin-left: 40px;
+   }
 </style>
 <h2 id="estructura-secuencial">Estructura Secuencial</h2>
 <details >
@@ -264,9 +280,117 @@ VC = PI × r ^ 2 × h">
 <details open>
   <summary><h3>Lógicos</h3></summary>
   <ol>
-<li>Escribir un algoritmo que reciba dos variables enteras e intercambie sus valores. Se deben mostrar los valores que tienen finalmente las variables.</li>
+<li><strong>Intercambiar Valores</strong>: Escribir un algoritmo que reciba dos variables enteras e intercambie sus valores. Se deben mostrar los valores que tienen finalmente las variables.</li>
+</ol>
+<details >
+  <summary><h4 class="solution-summary">Solución</h4></summary><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">Algoritmo IntercambiarValores
+</span></span><span class="line"><span class="cl">  Definir num1 Como Entero;
+</span></span><span class="line"><span class="cl">  Definir num2 Como Entero;
+</span></span><span class="line"><span class="cl">  Definir aux Como Entero;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese el primer número: &#34;;
+</span></span><span class="line"><span class="cl">  Leer num1;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese el segundo número: &#34;;
+</span></span><span class="line"><span class="cl">  Leer num2;
+</span></span><span class="line"><span class="cl">  aux &lt;- num1;
+</span></span><span class="line"><span class="cl">  num1 &lt;- num2;
+</span></span><span class="line"><span class="cl">  num2 &lt;- aux;
+</span></span><span class="line"><span class="cl">  Escribir &#34;El primer número vale: &#34;, num1;
+</span></span><span class="line"><span class="cl">  Escribir &#34;El segundo número vale: &#34;, num2;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div></details>
+<ol start="2">
 <li>Elaborar un algoritmo que solicite un número de 2 cifras y que muestre el número de unidades y decenas que lo componen.</li>
+</ol>
+<details >
+  <summary><h4 class="solution-summary">Solución</h4></summary><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">Algoritmo DescomponerNumero
+</span></span><span class="line"><span class="cl">  Definir num Como Entero;
+</span></span><span class="line"><span class="cl">  Definir unidades Como Entero;
+</span></span><span class="line"><span class="cl">  Definir decenas Como Entero;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese un número de dos cifras: &#34;;
+</span></span><span class="line"><span class="cl">  Leer num;
+</span></span><span class="line"><span class="cl">  unidades &lt;- num % 10;
+</span></span><span class="line"><span class="cl">  decenas &lt;- trunc(num / 10);
+</span></span><span class="line"><span class="cl">  Escribir &#34;El número de unidades es &#34;, unidades;
+</span></span><span class="line"><span class="cl">  Escribir &#34;El número de decenas es &#34;, decenas;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div></details>
+<ol start="3">
 <li>Desarrollar un algoritmo que permita invertir un número de 3 cifras. Por ejemplo, invertir a <code>492</code> da como resultado <code>294</code>.</li>
+</ol>
+<details >
+  <summary><h4 class="solution-summary">Solución</h4></summary><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">Algoritmo InvertirDigitos
+</span></span><span class="line"><span class="cl">  Definir num Como Entero;
+</span></span><span class="line"><span class="cl">  Definir unidad Como Entero;
+</span></span><span class="line"><span class="cl">  Definir decena Como Entero;
+</span></span><span class="line"><span class="cl">  Definir centena Como Entero;
+</span></span><span class="line"><span class="cl">  Definir invertido Como Entero;
+</span></span><span class="line"><span class="cl">  Escribir &#34;Ingrese un número de tres cifras: &#34;;
+</span></span><span class="line"><span class="cl">  Leer num;
+</span></span><span class="line"><span class="cl">  unidad &lt;- num % 10;
+</span></span><span class="line"><span class="cl">  decena &lt;- trunc(num / 10) % 10;
+</span></span><span class="line"><span class="cl">  centena &lt;- trunc(num / 100);
+</span></span><span class="line"><span class="cl">  invertido &lt;- unidad * 100 + decena * 10 + centena;
+</span></span><span class="line"><span class="cl">  Escribir &#34;El número invertido es: &#34;, invertido;
+</span></span><span class="line"><span class="cl">FinAlgoritmo
+</span></span></code></pre></td></tr></table>
+</div>
+</div></details>
+<ol start="4">
 <li>Para un número <code>N</code> de 5 cifras y un valor <code>K</code> entre 2 y 5, reemplazar en <code>N</code> el dígito <code>K</code> por 0.
 <ul>
 <li>Ejemplo 1: Para <code>N = 32415</code> y <code>K = 3</code>, se debe obtener <code>32015</code>.</li>
@@ -274,6 +398,16 @@ VC = PI × r ^ 2 × h">
 </ul>
 </li>
 </ol>
+<details >
+  <summary><h4 class="solution-summary">Solución</h4></summary><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">
+</span></span></code></pre></td></tr></table>
+</div>
+</div></details>
 
 </details>
 

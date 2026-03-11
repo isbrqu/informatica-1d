@@ -79,7 +79,7 @@ Sin ese componente, la computadora no podría encender.
 
 ## Hardware no crítico
 
-Es cualquier componente físico que **no es escencial** para el funcionamiento básico de la computadora pero son útiles para la interacción con la computadora.
+Es cualquier componente físico que **no es esencial** para el funcionamiento básico de la computadora pero son útiles para la interacción con la computadora.
 
 ### Dispositivos de entrada
 
