@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zip.pet/1d/1-computadora/</loc>
-    <lastmod>2026-03-10T20:23:55-03:00</lastmod>
+    <loc>https://zip.pet/1d/1-que-es-una-computadora/</loc>
+    <lastmod>2026-05-13T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://zip.pet/</loc>
-    <lastmod>2026-03-10T20:23:55-03:00</lastmod>
+    <lastmod>2026-05-13T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://zip.pet/1d/</loc>
+    <lastmod>2026-03-11T23:53:40-03:00</lastmod>
+  </url><url>
+    <loc>https://zip.pet/1d/4-hardware-no-critico/</loc>
+    <lastmod>2026-03-11T23:38:06-03:00</lastmod>
+  </url><url>
+    <loc>https://zip.pet/1d/3-hardware-critico/</loc>
+    <lastmod>2026-03-11T23:37:53-03:00</lastmod>
+  </url><url>
+    <loc>https://zip.pet/1d/2-hardware/</loc>
+    <lastmod>2026-03-11T23:37:45-03:00</lastmod>
   </url><url>
     <loc>https://zip.pet/3b/correcion/</loc>
     <lastmod>2025-09-15T17:27:17-03:00</lastmod>
@@ -17,16 +29,13 @@
     <loc>https://zip.pet/3b/</loc>
     <lastmod>2025-08-25T11:00:20-03:00</lastmod>
   </url><url>
-    <loc>https://zip.pet/1d/</loc>
-    <lastmod>2025-08-25T10:46:50-03:00</lastmod>
-  </url><url>
     <loc>https://zip.pet/3b/programa/</loc>
     <lastmod>2025-08-10T23:38:02-03:00</lastmod>
   </url><url>
     <loc>https://zip.pet/3b/algoritmo/</loc>
     <lastmod>2025-08-03T14:50:16-03:00</lastmod>
   </url><url>
-    <loc>https://zip.pet/1d/software/</loc>
+    <loc>https://zip.pet/1d/0-software/</loc>
     <lastmod>2025-07-29T21:51:22-03:00</lastmod>
   </url><url>
     <loc>https://zip.pet/4e/</loc>
