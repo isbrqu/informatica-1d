@@ -7,7 +7,11 @@ title = '2 Hardware'
 
 # Hardware
 
-**Definición**: Es cualquier parte físico de la computadora.
+**Definición**: Es cualquier parte física de la computadora.
+
+## Aclaración
+
+El hardware parte que puede estar tanto **afuera** como **adentro** de la computadora
 
 ## Tipos de hardware
 
@@ -15,10 +19,14 @@ title = '2 Hardware'
 
 **Definición:** Es cualquier parte física esencial para el funcionamiento básico de la computadora.
 
-Nota: Si falta alguno de estos la computadora no enciende.
+Nota 1: Si falta alguno de estos la computadora no enciende.
+
+Nota 2: Por lo general, el **hardware crítico** es también **hardware interno**.
 
 ### Hardware no crítico
 
 **Definición:** Es cualquier parte física **no esencial** para el funcionamiento básico de la computadora pero hacen más comodo su uso.
 
-Nota: Si falta alguno de estos la computadora podría encender pero sería fácil utilizarla.
+Nota 1: Si falta alguno de estos la computadora podría encender pero sería fácil utilizarla.
+
+Nota 2: En la actualidad, el **hardware no crítico** puede ser **interno** como **externo**, dependerá la computadora de la que estemos analizando.
