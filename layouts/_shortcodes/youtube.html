@@ -37,6 +37,7 @@ Renders an embedded YouTube video.
     {{- $mute := 0 }}
     {{- $start := 0 }}
     {{- $title := "YouTube video" }}
+    {{- $rel := 0 }}
     {{- $iframeAllowList := "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" }}
 
     {{- /* Get arguments. */}}
@@ -70,6 +71,7 @@ Renders an embedded YouTube video.
     {{- $loading := or ($.Get "loading") $loading }}
     {{- $start := or ($.Get "start") $start }}
     {{- $title := or ($.Get "title") $title }}
+    {{- $rel := or ($.Get "rel") $rel }}
 
     {{- /* Adjust iframeAllowList. */}}
     {{- if $allowFullScreen }}
@@ -86,6 +88,7 @@ Renders an embedded YouTube video.
       "mute" $mute
       "start" $start
       "loop" $loop
+      "rel" $rel
     }}
     {{- if $loop }}
       {{- $params = merge $params (dict "playlist" $id) }}
