@@ -1,5 +1,5 @@
 {{ with $file := .Get 0 }}
-  {{ with resources.Get $file }}
+  {{ with resources.Get "data/$file" }}
     {{ with . | transform.Unmarshal }}
       <table>
         <thead>
