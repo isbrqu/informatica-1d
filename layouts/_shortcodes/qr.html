@@ -39,7 +39,7 @@ Encodes the given text into a QR code using the specified options and renders th
 {{- $minimumScale := 6 }}
 
 {{- /* Get arguments. */}}
-{{- $text := or (.Get "text") (strings.TrimSpace .Inner) site.BaseURL }}
+{{- $text := or (.Get "text") (strings.TrimSpace .Inner) .Page.Permalink }}
 {{- $level := or (.Get "level") "medium" }}
 {{- $scale := or (.Get "scale") 6 }}
 {{- $targetDir := or (.Get "targetDir") "" }}
@@ -68,6 +68,7 @@ Encodes the given text into a QR code using the specified options and renders th
 {{- if not $errors }}
   {{- $opts := dict "level" $level "scale" $scale "targetDir" $targetDir }}
   {{- with images.QR $text $opts -}}
+  <center>
     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
       {{- with $alt }} alt="{{ $alt }}" {{- end }}
       {{- with $class }} class="{{ $class }}" {{- end }}
@@ -75,5 +76,6 @@ Encodes the given text into a QR code using the specified options and renders th
       {{- with $title }} title="{{ $title }}" {{- end -}}
       {{- with $loading }} loading="{{ $loading }}" {{- end -}}
     >
+  </center>
   {{- end }}
 {{- end -}}
