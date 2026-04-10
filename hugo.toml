@@ -21,6 +21,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 		lineNos = true
 [markup.goldmark]
   [markup.goldmark.extensions]
+    table = true
     [markup.goldmark.extensions.passthrough]
       enable = true
       [markup.goldmark.extensions.passthrough.delimiters]

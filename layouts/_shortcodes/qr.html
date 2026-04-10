@@ -68,6 +68,8 @@ Encodes the given text into a QR code using the specified options and renders th
 {{- if not $errors }}
   {{- $opts := dict "level" $level "scale" $scale "targetDir" $targetDir }}
   {{- with images.QR $text $opts -}}
+  <hr>
+  <br>
   <center>
     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
       {{- with $alt }} alt="{{ $alt }}" {{- end }}

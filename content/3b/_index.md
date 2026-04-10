@@ -1,6 +1,16 @@
 +++
-title = 'Informática | 3B'
-date = 2025-08-25T11:00:20-03:00
-draft = false
+layout = 'single'
+title = '3B | Informática'
 +++
 
+<style>
+ol a {
+  font-size: 1.3em;
+}
+</style>
+
+1. [Resolución de problemas](/3b/1-resolucion-de-problemas/1-introduccion)
+
+<br>
+
+{{< qr />}}

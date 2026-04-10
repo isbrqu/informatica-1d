@@ -4,11 +4,9 @@ draft = false
 title = 'Algoritmo'
 +++
 
-
 # Algoritmo
 
 **Definición:** Un algoritmo es una secuencia de pasos ordenados lógica y cronológicamente para la resolución de un problema.
-
 
 ## Características de un algoritmo
 

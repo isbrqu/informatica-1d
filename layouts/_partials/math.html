@@ -3,6 +3,7 @@
 {{ $autorenderjs := resources.Get "js/auto-render.min.js" | fingerprint }}
 
 <link rel="stylesheet"href="{{ $style.Permalink }}">
+<style>.katex { font-size: 1.5em; }</style>
 <script defer src="{{ $katexjs.Permalink }}"></script>
 <script defer src="{{ $autorenderjs.Permalink }}" onload="renderMathInElement(document.body);"></script>
 <script>
@@ -11,6 +12,7 @@
       delimiters: [
         {left: '\\[', right: '\\]', display: true},
         {left: '$$', right: '$$', display: true},
+        {left: '@', right: '@', display: false},
       ],
       throwOnError : false
     });
