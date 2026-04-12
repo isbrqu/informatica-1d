@@ -5,7 +5,7 @@ layout = 'single'
   math = true
 +++
 
-[Siguiente >](../2-lenguaje-y-simbolo)
+[< Anterior](..) | [Siguiente >](../2-lenguaje-y-simbolo)
 
 ## Introducción
 
@@ -66,4 +66,4 @@ Estos pasos no son únicos ni absolutos, todo depende de cómo se presenta el pr
 
 Aún así, serán útiles como introducción al tema.
 
-[Siguiente >](../2-lenguaje-y-simbolo)
+[< Anterior](..) | [Siguiente >](../2-lenguaje-y-simbolo)
