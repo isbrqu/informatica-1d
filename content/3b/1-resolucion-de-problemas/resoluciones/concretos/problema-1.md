@@ -47,6 +47,18 @@ $$
 \end{align*}
 $$
 
+## Verificación
+
+$$
+\begin{align*}
+  P + A &= T \\
+  24 + \dfrac{1}{3} \cdot T &= T \\[2ex]
+  24 + \dfrac{1}{3} \cdot 36 &= 36 \\[2ex]
+  24 + 12 &= 36 \\
+  36 &= 36
+\end{align*}
+$$
+
 ## Respuesta
 
 Se contaba con 36 ovejas.
