@@ -48,8 +48,9 @@ Luego, se tiene que @j = 34 + 5 = 39@
 
 $$
 \begin{align*}
-34 + 39 = 73 \\
-73 = 73
+	j + a = 73 \\
+  34 + 39 = 73 \\
+  73 = 73
 \end{align*}
 $$
 
