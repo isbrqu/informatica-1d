@@ -54,8 +54,9 @@ Luego se tiene que @p = 17 + 2 = 19@ y por lo tanto @m = 19 + 4 = 23@
 
 $$
 \begin{align*}
-17 + 19 + 23 = 59 \\
-59 = 59
+  m + p + f = d \\
+  23 + 19 + 17 = 59 \\
+  59 = 59
 \end{align*}
 $$
 
