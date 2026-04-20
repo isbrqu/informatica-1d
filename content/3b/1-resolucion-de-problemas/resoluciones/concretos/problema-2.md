@@ -31,11 +31,22 @@ $$
 
 $$
 \begin{align*}
-	\dfrac{3}{5}T - \dfrac{1}{2}T &= 50\\
-	\dfrac{(6T-5T)}{10} &= 50 \\
-	\dfrac{1}{10}T &= 50 \\
+	\dfrac{3}{5}T - \dfrac{1}{2}T &= 50 \\[2ex]
+	\dfrac{(6T-5T)}{10} &= 50 \\[2ex]
+	\dfrac{1}{10}T &= 50 \\[2ex]
 	T &= 50 \cdot 10 \\
 	T &= 500
+\end{align*}
+$$
+
+## Verificación
+
+$$
+\begin{align*}
+	\dfrac{3}{5}T - \dfrac{1}{2}T &= 50 \\[2ex]
+	\dfrac{3}{5} \cdot 500 - \dfrac{1}{2} \cdot 500 &= 50 \\[2ex]
+	300 - 250 &= 50 \\
+	50 &= 50 \\
 \end{align*}
 $$
 
