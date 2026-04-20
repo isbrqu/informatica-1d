@@ -45,13 +45,16 @@ $$
 \end{align*}
 $$
 
-Luego se tiene que @j=2 \cdot 7 = 14@ y que a @a = 14 + 3 = 17@
+Luego se tiene que:
+- @j=2 \cdot 7 = 14@
+- @a = 14 + 3 = 17@
 
 ### Verificación
 
 $$
 \begin{align*}
-	7 + 14 + 17 &= 38 \\
+  j + r + a &= 38 \\
+	14 + 7 + 17 &= 38 \\
 	38 &= 38
 \end{align*}
 $$
