@@ -33,12 +33,23 @@ $$
 
 $$
 \begin{align*}
-	\dfrac{1}{2}C + \dfrac{1}{4}C &= A \\[1.7ex]
-	\dfrac{1}{2}C + \dfrac{1}{4}C &= 1989 \\[1.7ex]
-	\dfrac{2C + 1C}{4} &= 1989 \\[1.7ex]
-	\dfrac{3}{4}C &= 1989 \\[1.7ex]
-	C &= 1989 : \dfrac{3}{4} \\[1.7ex]
+	\dfrac{1}{2}C + \dfrac{1}{4}C &= A \\[2ex]
+	\dfrac{1}{2}C + \dfrac{1}{4}C &= 1989 \\[2ex]
+	\dfrac{2C + 1C}{4} &= 1989 \\[2ex]
+	\dfrac{3}{4}C &= 1989 \\[2ex]
+	C &= 1989 : \dfrac{3}{4} \\[2ex]
 	C &= 2652
+\end{align*}
+$$
+
+### Verificación
+
+$$
+\begin{align*}
+	\dfrac{1}{2}C + \dfrac{1}{4}C &= 1989 \\[2ex]
+	\dfrac{1}{2} \cdot 2652 + \dfrac{1}{4} \cdot 2652 &= 1989 \\[2ex]
+	1326 + 663 &= 1989 \\[2ex]
+	1989 &= 1989 \\[2ex]
 \end{align*}
 $$
 
