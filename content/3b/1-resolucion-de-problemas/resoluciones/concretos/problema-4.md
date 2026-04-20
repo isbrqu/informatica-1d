@@ -27,7 +27,7 @@ $$
 $$
 \begin{array}{ll}
 	(1) & A + E + N = T \\
-	(2) & A = 8 + N \\[.5ex]
+	(2) & A = 8 + N \\[1ex]
 	(3) & E = \dfrac{1}{2}(A + N) \\[2ex]
 	(4) & T = 30
 \end{array}
@@ -44,6 +44,26 @@ $$
 	12 + 3N &= 30 \\
 	3N &= 18 \\
 	N &= 6
+\end{align*}
+$$
+
+Luego se tiene que:
+- @A = 8 + N = 8 + 6 = 14@
+
+- @E = \dfrac{1}{2}(A + N) = \dfrac{1}{2}(14 + 6) = \dfrac{1}{2} \cdot 20 = 10@
+
+En resumen:
+- @N = 6@
+- @A = 14@
+- @E = 10@
+
+### Verificación
+
+$$
+\begin{align*}
+	A + E + N &= T \\
+	14 + 10 + 6 &= 30 \\
+	30 &= 30
 \end{align*}
 $$
 
