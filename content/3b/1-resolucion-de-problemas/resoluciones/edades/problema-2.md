@@ -33,14 +33,24 @@ $$
 
 $$
 \begin{align*}
-h + 10 &= 2h & \text{se parte de (2)} \\
-h - 2h &= -10 & \text{despeje}\\
-\ - h &= -10 \\
-h &= 10 \\
+  h + 10 &= 2h & \text{se parte de (2)} \\
+  h - 2h &= -10 & \text{despeje}\\
+  \ - h &= -10 \\
+  h &= 10 \\
 \end{align*}
 $$
 
 Luego, se tiene que @m=3 \cdot 10 = 30@
+
+### Verificación
+
+$$
+\begin{align*}
+	h + 10 &= 2 \cdot h \\
+	10 + 10 &= 2 \cdot 10 \\
+	20 &= 20
+\end{align*}
+$$
 
 ### Respuesta
 
